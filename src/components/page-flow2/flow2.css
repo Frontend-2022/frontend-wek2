@@ -64,7 +64,8 @@
     opacity: 1;
 }
 
-.container__list-title {    
+
+.container__list-title {
     height: 39px;
     border-bottom: 0.5px solid #E0E0E0;
     display: flex;

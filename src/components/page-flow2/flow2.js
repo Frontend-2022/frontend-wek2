@@ -45,7 +45,7 @@ class Flow2 extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="row sm-gutter container-flow2">
                             <div className="col l-3">
                                 <div className="container__list">
@@ -54,13 +54,13 @@ class Flow2 extends React.Component {
                                         <span className="container__title-number">8 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
                                         <ContentsFlow2 />
                                     </div>
                                 </div>
@@ -72,9 +72,9 @@ class Flow2 extends React.Component {
                                         <span className="container__title-number">2 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />   
-                                    </div>                                   
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col l-3">
@@ -84,8 +84,8 @@ class Flow2 extends React.Component {
                                         <span className="container__title-number">1 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />  
-                                    </div>                                   
+                                        <ContentsFlow2 />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col l-3">
@@ -95,8 +95,8 @@ class Flow2 extends React.Component {
                                         <span className="container__title-number">1 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />      
-                                    </div>                                 
+                                        <ContentsFlow2 />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ class Flow2 extends React.Component {
                     </div>
 
                 </div>
-                
+
             </div>
         )
     }

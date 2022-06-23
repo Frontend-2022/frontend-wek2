@@ -1,6 +1,41 @@
 .actionflow1 {
-    width: 59.83333%;
-    height: 108px;
+    width: 718px;
+    height: 208px;
     background-color: #E8E8E8;
     margin-bottom: 200px;
 }
+.action{
+    /* Layout Properties */
+    display: flex;
+top: 1188px;
+left: 40px;
+width: 718px;
+height: 52px;
+background: #FFFFFF00 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+/* .action .action_name{
+    top: 1204px;
+    left: 56px;
+    width: 50px;
+    height: 22px;
+    margin-left: 16px;
+
+    margin-bottom:14px ;
+
+    text-align: left;
+
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 0.96;
+} */
+
+/* .action .action_content1{
+    top: 1240px;
+    left: 40px;
+    width: 718px;
+    height: 52px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
+} */
