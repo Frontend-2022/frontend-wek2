@@ -21,7 +21,7 @@ class ActionFlow1 extends React.Component {
 
                 </div>
                 <div className="action">
-                    <div className="Check_mark"><i class="check circle icon"></i></div>
+                    <div className="Checked_mark"><i class="check circle icon"></i></div>
                     <div className="status">Đã thanh toán</div>
                     <div className="perform">Hoàn tác</div>
                 </div>
