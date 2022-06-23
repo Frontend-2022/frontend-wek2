@@ -1,6 +1,6 @@
 .navigation {
     background-color: #fff;
-    border-bottom: solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
     width: 100%;
     height: var(--header-nav);
     text-decoration: none;
@@ -13,12 +13,14 @@
     width: 16px;
     height: 16px;
     margin: 0 20px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 .navigation-boder {
     position: absolute;
     height: 32px;
-    border-right: solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
     top: 12px;
     left: 56px;
 }
@@ -28,7 +30,11 @@
     font-size: 18px;
     margin: 0 24px;
     flex: 1;
+    text-align: left;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
     color: #141414;
+    opacity: 1;
 }
 
   
