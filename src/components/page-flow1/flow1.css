@@ -1,7 +1,7 @@
 .flow1 {
     box-sizing: border-box;
     width: 1366px;
-    hfjdhfjdfhjdf
+    /* hfjdhfjdfhjdf */
 }
 
 .header-flow1 {
@@ -55,7 +55,7 @@
     letter-spacing: 0px;
     text-transform: uppercase;
     color: #141414;
-} 
+}
 .header-flow1 .name .compname {
     width: 330px;
     height: 36px;
