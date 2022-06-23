@@ -92,6 +92,18 @@
 }
 .header-flow1__button-setting:hover {
     cursor: pointer;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #141414;
+    border-radius: 5px;
+    animation: fadeIn ease-out 0.3s;
+}
+@keyframes fadeIn {
+    from {
+        border-radius: 8px;
+    }
+    to {
+        border-radius: 5px;
+    }
 }
 
 .header-flow1__button-done {
