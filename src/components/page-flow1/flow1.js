@@ -13,14 +13,16 @@ class Flow1 extends React.Component {
         return(
             <div className="flow1">
                 <Nav />
-                <HeaderFlow1 />
-                
-                <div className="contents-flow1">
-                    <ContentsFlow1 />
-                    <CartFlow1 />
-                    <CreditFlow1 />
-                    <ActionFlow1 />
-                </div>
+                <div className="grid wide1">
+                    <HeaderFlow1 />
+                    
+                    <div className="contents-flow1">
+                        <ContentsFlow1 />
+                        <CartFlow1 />
+                        <CreditFlow1 />
+                        <ActionFlow1 />
+                    </div>
+                </div>                
             </div>
         )
     }

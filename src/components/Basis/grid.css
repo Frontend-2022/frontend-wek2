@@ -12,8 +12,15 @@
     padding: 0;
 }
 
+/* wide for flow2 */
 .grid.wide {
     max-width: 1286px;
+    margin: 0 auto;
+}
+
+/* wide for flow1 */
+.grid.wide1 {
+    max-width: 1366px;
     margin: 0 auto;
 }
 
