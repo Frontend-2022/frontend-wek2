@@ -1,0 +1,28 @@
+.header-flow1 {
+    height: 110px;
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.header-flow1__name {
+
+}
+
+.header-flow1__name-info {
+
+}
+
+.header-flow1__name-id {
+
+}
+
+.header-flow1__name-compname {
+
+}
+
+.header-flow1__button {
+
+}
