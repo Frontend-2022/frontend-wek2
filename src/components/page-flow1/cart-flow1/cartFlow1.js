@@ -7,7 +7,7 @@ class CartFlow1 extends React.Component {
         return(
             <div className="cartflow1"> 
 
-                <span className="cartflow1-item">Cart List in FLOW1</span>
+                <span className="cartflow1-item"> Giỏ hàng </span>
                 
             </div>
         )
