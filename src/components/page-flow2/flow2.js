@@ -1,7 +1,7 @@
 import React from "react";
 import '../Basis/grid.css';
 import { Link } from "react-router-dom";
-import Nav from '../Navigation/nav'; 
+import Nav from '../Navigation/nav';
 import './flow2.css';
 import ContentsFlow2 from "./contents-flow2/contentsFlow2";
 
@@ -76,10 +76,10 @@ class Flow2 extends React.Component {
                             </Link>
                             <Link to='/flow1'>
                                 <button className="header-btn">Tạo đơn</button>
-                            </Link> 
-                        </div>   
-                    </div>                    
-                    
+                            </Link>
+                        </div>
+                    </div>
+
                     <div className="container">
                         <div className="container__category">
                             <div className="row sm-gutter container__category-position">
@@ -100,7 +100,7 @@ class Flow2 extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="row sm-gutter container-flow2">
                             <div className="col l-3 m-6 c-12">
                                 <div className="container__list">
@@ -109,13 +109,13 @@ class Flow2 extends React.Component {
                                         <span>8 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
                                         <ContentsFlow2 />
                                     </div>
                                 </div>
@@ -123,13 +123,13 @@ class Flow2 extends React.Component {
                             <div className="col l-3 m-6 c-12">
                                 <div className="container__list">
                                     <div className="container__list-title">
-                                        <span>CHỨNG TỪ</span>
+                                        <span>IN CHỨNG TỪ</span>
                                         <span>2 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />                                    
-                                        <ContentsFlow2 />   
-                                    </div>                                   
+                                        <ContentsFlow2 />
+                                        <ContentsFlow2 />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col l-3 m-6 c-12">
@@ -139,8 +139,8 @@ class Flow2 extends React.Component {
                                         <span>1 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />  
-                                    </div>                                   
+                                        <ContentsFlow2 />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col l-3 m-6 c-12">
@@ -150,8 +150,8 @@ class Flow2 extends React.Component {
                                         <span>1 đơn</span>
                                     </div>
                                     <div className="container__list-item">
-                                        <ContentsFlow2 />      
-                                    </div>                                 
+                                        <ContentsFlow2 />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ class Flow2 extends React.Component {
                     </div>
 
                 </div>
-                
+
             </div>
         )
     }
