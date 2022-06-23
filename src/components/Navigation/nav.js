@@ -21,7 +21,6 @@ class Nav extends React.Component {
                 <div class="navigation-boder"></div>
 
                 <div class="navigation__name">Quản lí đơn hàng: Đóng gói</div>
-                {/* <div class="navigation__active2-name">Trở về lorem ipsum</div> */}
                 
             </div>
         )
