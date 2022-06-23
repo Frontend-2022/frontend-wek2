@@ -1,28 +1,111 @@
 .header-flow1 {
+    width: 1286px;
     height: 110px;
-    margin-top: 26px;
+    margin: 26px 40px 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 .header-flow1__name {
-
+    display: flex;
+    align-items: flex-end;
 }
 
 .header-flow1__name-info {
-
+    margin-right: 12px;
 }
 
 .header-flow1__name-id {
-
+    height: 19px;
+    text-align: left;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #4C4C4C;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 .header-flow1__name-compname {
+    height: 36px;
+    text-align: left;
+    font: normal normal 600 26px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+}
 
+.header-flow1__action {
+    height: 33px;
+}
+
+.header-flow1__action-btn {    
+    width: 101px;
+    height: 26px;
+    margin: 0 6px;
+    background: #00C7BE00 0% 0% no-repeat padding-box;
+    border: 1px solid #FF9500;
+    border-radius: 3px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: right;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #FF9500;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.header-flow1__action-btn:hover {
+    background: #FF9500 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
 }
 
 .header-flow1__button {
+    display: flex;
+    align-items: center;
+}   
 
+.header-flow1__button-print,
+.header-flow1__button-setting {
+    width: 40px;
+    height: 40px;
+    background: #30303000 0% 0% no-repeat padding-box;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.header-flow1__button-setting {
+    margin: 0 8px;
+}
+
+.header-flow1__button-print:hover {
+    cursor: pointer;
+}
+.header-flow1__button-setting:hover {
+    cursor: pointer;
+}
+
+.header-flow1__button-done {
+    width: 199px;
+    height: 40px;
+    background: #54A9FF00 0% 0% no-repeat padding-box;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    opacity: 1;
+
+    font: normal normal medium 14px/18px Be Vietnam Pro;
+    letter-spacing: 0px;
+    color: #4C4C4C;
+}
+.header-flow1__button-done:hover {
+    cursor: pointer;
 }
