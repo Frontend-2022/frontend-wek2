@@ -4,7 +4,7 @@
     margin-left: 40px;
     margin-right: 22px;
     background-color: #FFFFFF;
-    border-bottom: 1px solid #E0E0E0; 
+    
 
 }
 .textCart{
@@ -101,9 +101,11 @@
 }
 .item {
     height: 82px;
+    width: 1286px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
+    border-bottom: 1px solid #E0E0E0; 
 }
 .item-no{
     height: 19px;
