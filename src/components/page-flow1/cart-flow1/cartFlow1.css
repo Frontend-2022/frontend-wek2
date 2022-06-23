@@ -5,16 +5,102 @@
     margin-right: 22px;
     background-color: #FFFFFF;
     border-bottom: 1px solid #E0E0E0; 
+
 }
 .textCart{
     width: 77px;
     height: 24px;
+    margin-top: 24px;
     text-align: right;
-    font: normal normal 600 18px/24px Open Sans;
+    font: normal normal 800 18px/24px Open Sans;
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
 }
-.cartflow1-item {
+.item-header{
+    height: 32px;
+    width: 1286px;
+    margin-top:16px;
+    background: #00000008 0% 0% no-repeat padding-box;
+    display: flex;
+}
+.item-header-icon{
+    margin-top: 8px;
+    margin-bottom: 7px; 
+    margin-left: 12px;
+    width: 56px;
+    height: 17px;
+    text-align: left;
+    font: normal normal 600 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #717171D1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.item-header-text{
+    margin-top: 8px;
+    margin-bottom: 7px; 
+    height: 17px;
+    text-align: left;
+    font: normal normal 600 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #717171D1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.item-header-text2{
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-left: 339px;
+    width: 135px;
+    height: 17px;
+    text-align: left;
+    font: normal normal 600 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #717171D1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.item-header-text3{
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-left: 121px;
+    height: 17px;
+    text-align: left;
+    font: normal normal 600 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #717171D1;
+    text-transform: uppercase;
+    opacity: 1;
+}
 
+.item-header-text4{
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-left: 82px;
+    height: 17px;
+    text-align: left;
+    font: normal normal 600 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #717171D1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.item-header-text5{
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-left: 101px;
+    height: 17px;
+    text-align: left;
+    font: normal normal 600 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #717171D1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.item {
+    height: 82px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
