@@ -14,7 +14,7 @@ class ContentsFlow1 extends React.Component {
                 <div className="category-container">
                     <div id="list" className="row container-category-position">
                         <div className="list1">
-                            <p className="text1">Đơn hàng</p>
+                            <div className="text1">Đơn hàng</div>
                         </div>
                         <div className="list2">
                             <div className="text2">Vận chuyển</div>
@@ -28,7 +28,7 @@ class ContentsFlow1 extends React.Component {
                     <div className="block1">
                     <div className="block1-1"> 
                     </div>
-                    <div className="block1-1"> 
+                    <div className="block1-2"> 
                     </div>
                     </div>
                     <div className="block2">
@@ -46,12 +46,14 @@ class ContentsFlow1 extends React.Component {
                     </div> 
                     </div>
                     </div>
-                    <div className="block2 block2-2">
+                    <div className="block2-2">
                     <div className="block2-2-1"> 
                     <div className=" block2-2-1-1"> 
                     </div>
+                    <div className=" block2-2-1-1"> 
                     </div>
-                    <div className="block2-2-1"> 
+                    </div>
+                    <div className="block2-2-2"> 
                     </div>
                     </div>
     

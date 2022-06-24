@@ -31,8 +31,6 @@ class CreditFlow1 extends React.Component {
                 {/* <div className="discount-text8">Thêm</div> */}
                 {/* <div className="discount-text9">Thêm</div> */}
                 </div>
-                
-                
                 </div>
             </div>
         )

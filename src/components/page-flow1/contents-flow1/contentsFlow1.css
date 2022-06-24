@@ -75,7 +75,6 @@
     width: 1286px;
     height: 272px;
     margin-top: 16px;
-    background: #00000008 0% 0% no-repeat padding-box;
     display: flex;
     
 }
@@ -83,14 +82,27 @@
     width: 624px;
     height: 272px;
     margin: 0 0 0 0px;
-    border-right:  2px solid #FFFFFF;
     border-radius: 5px;
 }
 .block1-1{
     height: 50%;
     margin: 0 0 0 0px;
-    border-radius: 5px;
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background: #00000008 0% 0% no-repeat padding-box;
+    display: flex;
+}
+.block1-2{
+    height: 50%;
+    margin: 0 0 0 0px;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    background: #00000008 0% 0% no-repeat padding-box;
+    border-radius: 5px;
     display: flex;
 }
 
@@ -100,7 +112,6 @@
     height: 272px;
     margin: 0 0 0 0px;
     border-radius: 5px;
-    
 }
 .block2-1{
     height: 50%;
@@ -111,43 +122,57 @@
 .block2-1-1{
     height: 50%;
     margin: 0 0 0 0px;
-    border-radius: 5px;
     display: flex;
+    border-radius: 5px;
 }
 .block2-1-1-1{
     height: 100%;
     width: 50%;
     margin: 0 0 0 0px;
-    border-radius: 5px;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
     border-right: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background: #00000008 0% 0% no-repeat padding-box;
 }
 .block2-1-1-2{
     height: 100%;
     width: 50%;
     margin: 0 0 0 0px;
-    border-radius: 5px;
-    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
     border-right: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background: #00000008 0% 0% no-repeat padding-box;
 }
 
 .block2-2{
     height: 50%;
     margin: 0 0 0 0px;
-    border-radius: 5px;
     display: flex;
+    border-radius: 5px;
 }
 .block2-2-1{
     height: 100%;
     width: 50%;
     margin: 0 0 0 0px;
-    border-right: 2px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
     border-radius: 5px;
+
 }
 .block2-2-1-1{
     height: 50%;
     width: 100%;
     margin: 0 0 0 0px;
-    border-radius: 5px;
     border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background: #00000008 0% 0% no-repeat padding-box;
+}
+.block2-2-2{
+    height: 100%;
+    width: 50%;
+    margin: 0 0 0 0px;
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background: #00000008 0% 0% no-repeat padding-box;
 }
