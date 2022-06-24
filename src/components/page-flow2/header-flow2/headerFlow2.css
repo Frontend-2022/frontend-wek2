@@ -118,7 +118,7 @@
     opacity: 1;
 }
 .btn1_btn2:hover .header__nav-setting{
-    z-index: 5;
+    /* z-index: 5; */
 }
 
 .header-btn1 {
@@ -168,3 +168,4 @@
 
 
 }
+
