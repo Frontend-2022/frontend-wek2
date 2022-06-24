@@ -4,11 +4,13 @@
     box-shadow: 2px 2px 8px #00000029;
     background-color: #ffffff;
     margin: 4px 3.5px 4px 3.5px;
+    transition: width 3s;
 }
 .contentsflow2:hover {
     cursor: pointer;
     background-color: #F7F7F7;
     animation: auto-animate ease-out 0.3s;
+    width: 312px;
 }
 
 @keyframes auto-animate {
