@@ -46,59 +46,67 @@ class Flow2 extends React.Component {
                             </div>
                         </div>
 
-                        <div className="row sm-gutter container-flow2">
+                        <div className="row sm-gutter container-flow2-1">
+
+                            <div className="col l-3">
+                                <div className="container__list-title">
+                                    <span className="container__title-name">CHỜ ĐÓNG GÓI</span>
+                                    <span className="container__title-number">8 đơn</span>
+                                </div>
+                            </div>
+                            <div className="col l-3">
+                                <div className="container__list-title">
+                                    <span className="container__title-name">CHỨNG TỪ</span>
+                                    <span className="container__title-number">2 đơn</span>
+                                </div>
+                            </div>
+                            <div className="col l-3">
+                                <div className="container__list-title">
+                                    <span className="container__title-name">SOẠN HÀNG</span>
+                                    <span className="container__title-number">1 đơn</span>
+                                </div>
+                            </div>
+                            <div className="col l-3">
+                                <div className="container__list-title">
+                                    <span className="container__title-name">ĐÃ ĐÓNG GÓI</span>
+                                    <span className="container__title-number">1 đơn</span>
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                        <div className="row sm-gutter container-flow2-2">
+
                             <div className="col l-3">
                                 <div className="container__list">
-                                    <div className="container__list-title">
-                                        <span className="container__title-name">CHỜ ĐÓNG GÓI</span>
-                                        <span className="container__title-number">8 đơn</span>
-                                    </div>
-                                    <div className="container__list-item">
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                    </div>
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
                                 </div>
                             </div>
                             <div className="col l-3">
                                 <div className="container__list">
-                                    <div className="container__list-title">
-                                        <span className="container__title-name">CHỨNG TỪ</span>
-                                        <span className="container__title-number">2 đơn</span>
-                                    </div>
-                                    <div className="container__list-item">
-                                        <ContentsFlow2 />
-                                        <ContentsFlow2 />
-                                    </div>
+                                    <ContentsFlow2 />
+                                    <ContentsFlow2 />
                                 </div>
                             </div>
                             <div className="col l-3">
                                 <div className="container__list">
-                                    <div className="container__list-title">
-                                        <span className="container__title-name">SOẠN HÀNG</span>
-                                        <span className="container__title-number">1 đơn</span>
-                                    </div>
-                                    <div className="container__list-item">
-                                        <ContentsFlow2 />
-                                    </div>
+                                    <ContentsFlow2 />
                                 </div>
                             </div>
                             <div className="col l-3">
                                 <div className="container__list">
-                                    <div className="container__list-title">
-                                        <span className="container__title-name">ĐÃ ĐÓNG GÓI</span>
-                                        <span className="container__title-number">1 đơn</span>
-                                    </div>
-                                    <div className="container__list-item">
-                                        <ContentsFlow2 />
-                                    </div>
+                                    <ContentsFlow2 />
                                 </div>
                             </div>
+                                
+
                         </div>
 
                     </div>
