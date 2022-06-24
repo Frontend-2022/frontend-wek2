@@ -56,25 +56,44 @@ class ContentsFlow1 extends React.Component {
                         <div className="block2-1"> 
                             <div className=" block2-1-1"> 
                                 <div className=" block2-1-1-1"> 
+                                <div className="text3">Người bán</div>
+                                <div className="imagegrid">
+                                <div className="image"></div>
+                                <div className="text8">Nguyễn Văn Mười Ba</div>
+                                </div>
                                 </div>
                                 <div className=" block2-1-1-1"> 
+                                <div className="text3">Ngày đặt</div>
+                                <div className="text7">dd/mm/yyyy</div>
+                                <input type="date"></input>
                                 </div>
                             </div>
                             <div className="block2-1-1">
                                 <div className=" block2-1-1-2"> 
+                                <div className="text3">Ngày giao</div>
+                                <div className="text7">dd/mm/yyyy</div>
+                                <input type="date"></input>
                                 </div>
-                                <div className=" block2-1-1-2"> 
+                                <div className=" block2-1-1-2">
+                                <div className="text3">Kho bán hàng</div> 
+                                <div className="text9">Lorem ipsum dolor sit amet,</div>
                                 </div> 
                             </div>
                         </div>
                         <div className="block2-2">
                             <div className="block2-2-1"> 
                                 <div className=" block2-2-1-1"> 
+                                <div className="text4">Phương thức vận chuyển</div>
+                                <div className="text9">Xe công ty</div>
                                 </div>
                                 <div className=" block2-2-1-1"> 
+                                <div className="text4">Hình thức thanh toán</div>
+                                <div className="text9">Thanh toán khi nhận hàng (COD)</div>
                                 </div>
                             </div>
                             <div className="block2-2-2"> 
+                            <div className="text5">Chứng từ kế toán</div>
+                            <div className="text6">Đồng bộ</div>
                             </div>
                         </div>
     

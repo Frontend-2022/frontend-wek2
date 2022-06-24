@@ -249,13 +249,67 @@
     margin-left: 24px;
     height: 19px;
     text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
+    font: normal normal normal 14px/21px Open Sans;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
 }
 
 
+.text3{
+    margin-left: 16px;
+    margin-top: 10px; 
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 14px/21px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.text4{
+    margin-left: 16px;
+    padding-top: 10px; 
+    height: 26px;
+    text-align: left;
+    font: normal normal normal 14px/21px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.text5{
+    margin-left: 16px;
+    margin-top: 44px; 
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 14px/21px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+.text6{
+    height: 22px;
+    margin-left: 16px;
+    margin-top: 1px;
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #007FFF;
+    opacity: 1;
+}
+.text7{
+    height: 22px;
+    margin-left: 16px;
+    margin-top: 2px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+}
 .block2{
     width: 662px;
     height: 272px;
@@ -325,3 +379,70 @@
     border-radius: 5px;
     background: #00000008 0% 0% no-repeat padding-box;
 }
+.imagegrid{
+    margin-left: 16px;
+    margin-top: 2px;
+    width: 229px;
+    height: 22px;
+    display: flex;
+}
+.image{
+    margin-top: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: transparent url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/589ccc88-1420-4411-88a2-55ff4fb11775/d9bwnt9-3065d0ab-bb0a-46ec-a390-1bac8168bcb8.png/v1/fill/w_569,h_350,q_70,strp/toriko_303_by_youwhatsup_d9bwnt9-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDU0IiwicGF0aCI6IlwvZlwvNTg5Y2NjODgtMTQyMC00NDExLTg4YTItNTVmZjRmYjExNzc1XC9kOWJ3bnQ5LTMwNjVkMGFiLWJiMGEtNDZlYy1hMzkwLTFiYWM4MTY4YmNiOC5wbmciLCJ3aWR0aCI6Ijw9NzM4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.-wvrzKuaZjj4H3wupRLsVRU43RpqXGAY4wZ4k0IvUOo) 50% 50% no-repeat padding-box;
+    opacity: 1;
+}
+.text8{
+    margin-left: 8px;
+    margin-top: 2px;
+    height: 22px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+}
+[type="date"] {
+    background: transparent url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% no-repeat padding-box;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  /* custom styles */
+  .text7{
+    text-align: left;
+    
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+    position: absolute;
+  }
+  input {
+    outline: none;
+    color: transparent;
+    font-size: 10px;
+    border: transparent;
+    height: 24px;
+    width:118px;
+    margin-left: 14px;
+  }
+
+  .text9{
+    height: 22px;
+    margin-left: 16px;
+    margin-top: 2px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+  }
