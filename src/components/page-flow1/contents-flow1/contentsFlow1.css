@@ -70,6 +70,7 @@
     opacity: 1;
 
 }
+
 /*  */
 .detail-container{
     width: 1286px;
@@ -78,12 +79,14 @@
     display: flex;
     
 }
+
 .block1{
     width: 624px;
     height: 272px;
     margin: 0 0 0 0px;
     border-radius: 5px;
 }
+
 .block1-1{
     height: 50%;
     margin: 0 0 0 0px;
@@ -186,6 +189,7 @@
 
 .block1-2-locate {
     margin-left: 24px;
+    /* margin-top: 16px; */
     height: 19px;
     text-align: left;
     font: normal normal normal 14px/21px Open Sans;
