@@ -7,15 +7,16 @@
     opacity: 1;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    transition: width 3s;
+    transition: width .5s;
+    width: 97.7%;
 
 }
 .contentsflow2:hover {
     cursor: pointer;
     background: #FFFFFF00 0% 0% no-repeat padding-box;
     opacity: 1;
-    animation: auto-animate ease-out 0.3s;
-    width: 312px;
+    /* animation: auto-animate ease-out 0.3s; */
+    width: 99%;
 }
 
 @keyframes auto-animate {
@@ -120,7 +121,7 @@
     left: 56px;
     width: 19px;
     height: 19px;
-    border-radius: 5px;
+    border-radius: 50%;
     opacity: 1;
 }
 .contentsflow2 .Order_Info .Customer_Infor .Name{
