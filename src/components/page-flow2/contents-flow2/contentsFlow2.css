@@ -1,21 +1,26 @@
 .contentsflow2 {
+    margin: 4px 3.5px 4px 3.5px;
     height: 164px;
     border-radius: 12px;
     box-shadow: 2px 2px 8px #00000029;
-    background-color: #ffffff;
-    margin: 4px 3.5px 4px 3.5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     transition: width 3s;
+
 }
 .contentsflow2:hover {
     cursor: pointer;
-    background-color: #F7F7F7;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
     animation: auto-animate ease-out 0.3s;
     width: 312px;
 }
 
 @keyframes auto-animate {
     from{
-        opacity: 0.5;
+        opacity: 1;
     }
     to{
         opacity: 1;

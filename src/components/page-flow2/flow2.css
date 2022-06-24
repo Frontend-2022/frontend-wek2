@@ -96,7 +96,6 @@
     height: 511px;
     max-height: 508px;
     overflow-y: auto;
-
 }
 .container__list-item::-webkit-scrollbar {
     display: none;
