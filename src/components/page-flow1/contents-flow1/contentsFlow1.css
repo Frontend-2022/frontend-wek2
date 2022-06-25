@@ -309,6 +309,7 @@
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
+    position: absolute;
 }
 .block2{
     width: 662px;
@@ -416,15 +417,6 @@
   }
   
   /* custom styles */
-  .text7{
-    text-align: left;
-    
-    font: normal normal normal 16px/22px Open Sans;
-    letter-spacing: 0px;
-    color: #141414;
-    opacity: 1;
-    position: absolute;
-  }
   input {
     outline: none;
     color: transparent;
@@ -446,3 +438,15 @@
     color: #141414;
     opacity: 1;
   }
+  .text9:hover .nav_sub{
+        display: block;
+  }
+
+  .nav_sub{
+    text-transform: none;
+  display: none;
+  position: absolute;
+  }
+  
+  
+  

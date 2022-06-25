@@ -84,7 +84,12 @@ class ContentsFlow1 extends React.Component {
                             <div className="block2-2-1"> 
                                 <div className=" block2-2-1-1"> 
                                 <div className="text4">Phương thức vận chuyển</div>
-                                <div className="text9">Xe công ty</div>
+                                <div className="text9">Xe công ty
+                                <div className="nav_sub">
+                                    <div className="nav_sub-item ">
+                                     Our Company
+                                    </div>
+                                </div></div>
                                 </div>
                                 <div className=" block2-2-1-1"> 
                                 <div className="text4">Hình thức thanh toán</div>
