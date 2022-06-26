@@ -111,7 +111,8 @@
 }
 
 .discount-text6{
-    height: 19px;
+    width: 60px;
+    height: 50px;
     padding-right: 16px;
     padding-left: 20px;
     padding-top: 20px;
@@ -138,12 +139,13 @@
 
 
 .discount-text8{
-    height: 19px;
-    width: 38px;
-    padding-right: 7px;
+    height: 50px;
+    width: 60px;
+    /* padding-right: 7px;
     padding-left: 20px;
     padding-top: 14px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; */
+    padding: 14px 12px 10px 12px;
     text-align: right;
     text-decoration: underline;
     font: normal normal 600 14px/19px Open Sans;
@@ -152,6 +154,14 @@
     opacity: 1;   
     display: none; 
 }
+
+/* .discount-text6:hover {
+    display: none;
+}
+.discount-text6:hover .discount-text8 {
+    display: block;
+} */
+
 .discount-grid-noborder:hover .discount-text8{
     cursor: pointer;
     display: block;   
@@ -160,6 +170,11 @@
     cursor: pointer;
     display: none;   
 }
+
+/* .discount-text8:active {
+    border: 1px solid black;
+} */
+
 /* .discount-grid-text8{
     height: 32px;
     width: 54px;    
@@ -172,17 +187,13 @@
     border-radius: 5px;
     opacity: 1;
     display: none;
-}
+} */
 .discount-text8:active{
-    height: 36px;
-    width: 48px;    
-    margin-right: 16px;
-    margin-left: 35px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 0;
+    /* padding: 12px; */
     background: #F2F2F2 0% 0% no-repeat padding-box;
     border: 1px solid #141414;
     border-radius: 5px;
     opacity: 1;
     display: none;
-} */
+}
