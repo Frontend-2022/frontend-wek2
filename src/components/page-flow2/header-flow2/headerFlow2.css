@@ -126,7 +126,7 @@ left: 0;
     font: normal normal 600 11.5px Open Sans;
 }
 .header-btn1 {
-    top: -2px;
+    /* top: -2px; */
     left: 0;
     bottom: 0px;
     right: 0;
