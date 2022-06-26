@@ -7,7 +7,10 @@
     display: flex;
     align-items: center;
     position: relative;
-  }
+}
+.navigation:hover {
+    cursor: pointer;
+}
 
 .navigation__icon {
     width: 16px;
