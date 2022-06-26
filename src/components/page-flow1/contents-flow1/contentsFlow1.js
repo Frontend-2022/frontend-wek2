@@ -58,9 +58,10 @@ class ContentsFlow1 extends React.Component {
                                 <div className="text3">Người bán</div>
                                 <div className="imagegrid">
                                 <div className="image"></div>
-                                <div className="text8">Nguyễn Văn Mười Ba
+                                <div className="text8">Nguyễn Văn Mười Ba</div>
+                                </div>
                                 <div className="nav_sub2">
-                                <div class="search-container">
+                                <div class="search-container2">
                                     <input type="text" placeholder="Search.." name="search"></input>
                                     <button><svg xmlns="http://www.w3.org/2000/svg" id="Group_13362" data-name="Group 13362" width="14" height="14" viewBox="0 0 14 14">
                                             <rect id="Rectangle_5105" data-name="Rectangle 5105" width="14" height="14" fill="none"/>
@@ -73,24 +74,24 @@ class ContentsFlow1 extends React.Component {
                                             </g>
                                             </svg></button>
                                 </div>
-                                    <div className="nav_sub-item2 ">
+                                    <div className="nav_sub2-item2 ">
                                    
-                                    <div className="imagegrid">
-                                    <div className="image"></div>
-                                    Nguyễn Văn Mười Ba
-                                    
+                                    <div className="nav_sub2-item2-imagegrid">
+                                    <div className="nav_sub2-item2-image"></div>
+                                    <div className="nav_sub2-item-text2">Nguyễn Văn Mười Ba</div>
+                                    <div className="image1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
                                     </div>
-                                    <div className="nav_sub-item2 ">
+                                    <div className="nav_sub2-item2 ">
                                 
-                                    <div className="imagegrid">
-                                    <div className="image"></div>
-                                    Nguyễn Văn Mười Ba
-                                  
+                                    <div className="nav_sub2-item2-imagegrid">
+                                    <div className="nav_sub2-item2-image"></div>
+                                    <div className="nav_sub2-item-text2">Nguyễn Văn Mười Ba</div> 
+                                    <div className="image1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
                                     </div>
-                                </div></div>
                                 </div>
+                                
                                 </div>
                                 <div className=" block2-1-1-1"> 
                                 <div className="text3">Ngày đặt</div>
@@ -106,7 +107,7 @@ class ContentsFlow1 extends React.Component {
                                 </div>
                                 <div className=" block2-1-1-2">
                                 <div className="text3">Kho bán hàng</div> 
-                                <div className="text9">Lorem ipsum dolor sit amet,
+                                <div className="text9">Lorem ipsum dolor sit amet,</div>
                                 <div className="nav_sub">
                                 <div class="search-container">
                                     <input type="text" placeholder="Search.." name="search"></input>
@@ -122,16 +123,22 @@ class ContentsFlow1 extends React.Component {
                                             </svg></button>
                                 </div>
                                     <div className="nav_sub-item ">
+                                    <div className="nav_sub-item-imagegrid">
                                     <div className="nav_sub-item-text ">
                                     Lorem ipsum dolor sit amet,
+                                    </div>
+                                    <div className="image4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
                                     </div>
                                     <div className="nav_sub-item ">
+                                    <div className="nav_sub-item-imagegrid">
                                     <div className="nav_sub-item-text ">
                                     Lorem ipsum dolor sit amet,
                                     </div>
+                                    <div className="image4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
-                                </div></div>
+                                    </div>
+                                </div>
                                 </div> 
                             </div>
                         </div>
@@ -139,7 +146,7 @@ class ContentsFlow1 extends React.Component {
                             <div className="block2-2-1"> 
                                 <div className=" block2-2-1-1"> 
                                 <div className="text4">Phương thức vận chuyển</div>
-                                <div className="text9">Xe công ty
+                                <div className="text9">Xe công ty</div>
                                 <div className="nav_sub">
                                 <div class="search-container">
                                     <input type="text" placeholder="Search.." name="search"></input>
@@ -155,20 +162,26 @@ class ContentsFlow1 extends React.Component {
                                             </svg></button>
                                 </div>
                                     <div className="nav_sub-item ">
+                                    <div className="nav_sub-item-imagegrid">
                                     <div className="nav_sub-item-text ">
                                     Xe công ty
+                                    </div>
+                                    <div className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
                                     </div>
                                     <div className="nav_sub-item ">
+                                    <div className="nav_sub-item-imagegrid">
                                     <div className="nav_sub-item-text ">
                                     Xe công ty
                                     </div>
+                                    <div className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
-                                </div></div>
+                                    </div>
+                                </div>
                                 </div>
                                 <div className=" block2-2-1-1"> 
                                 <div className="text4">Hình thức thanh toán</div>
-                                <div className="text9">Thanh toán khi nhận hàng (COD)
+                                <div className="text9">Thanh toán khi nhận hàng (COD)</div>
                                 <div className="nav_sub">
                                 <div class="search-container">
                                     <input type="text" placeholder="Search.." name="search"></input>
@@ -184,16 +197,22 @@ class ContentsFlow1 extends React.Component {
                                             </svg></button>
                                 </div>
                                     <div className="nav_sub-item ">
+                                    <div className="nav_sub-item-imagegrid">
                                     <div className="nav_sub-item-text ">
                                     Thanh toán khi nhận hàng (COD)
+                                    </div>
+                                    <div className="image2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
                                     </div>
                                     <div className="nav_sub-item ">
+                                    <div className="nav_sub-item-imagegrid">
                                     <div className="nav_sub-item-text ">
                                     Thanh toán khi nhận hàng (COD)
                                     </div>
+                                    <div className="image2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
                                     </div>
-                                </div></div>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                             <div className="block2-2-2"> 
