@@ -1,12 +1,26 @@
 import React from "react";
 import './cartFlow1.css';
+import { TbReport } from "react-icons/tb";
+import { BsCart2 } from "react-icons/bs";
 
 
 class CartFlow1 extends React.Component {
     render() {
         return(
             <div className="cartflow1"> 
-                <div className="textCart"> Giỏ hàng </div>
+                <div className="textCart">
+                    <span>Giỏ hàng</span> 
+                    <div className="textCart1">
+                        <span className="textCart2">
+                            <BsCart2 />
+                            Giỏ hàng
+                        </span> 
+                        <span className="textCart3">
+                            <TbReport />
+                            Hoá đơn
+                        </span>
+                    </div>
+                </div>
                 <div className="item-header">
                 <div className="item-header-icon"> # </div>
                 <div className="item-header-text"> Tên hàng </div>

@@ -21,14 +21,14 @@ class CreditFlow1 extends React.Component {
                 <div className="discount-text5">Mua 3 tặng 3</div>
                 </div>
                 <div className="discount-grid">
-                <div className="discount-text4">Tên sản phẩm Lorem ipsum dolor sit amet, consetetur</div>
-                <div className="discount-text5">Mua 3 tặng 3</div>
+                    <div className="discount-text4">Tên sản phẩm Lorem ipsum dolor sit amet, consetetur</div>
+                    <div className="discount-text5">Mua 3 tặng 3</div>
                 </div>
                 <div className="discount-grid-noborder">
-                <div className="discount-text4">Tên sản phẩm Lorem ipsum dolor sit amet, consetetur</div>
-                <div className="discount-text7">Mua 3 tặng 3</div>
-                <div className="discount-text6">Sửa</div> 
-                 <div className="discount-text8">Thêm</div>
+                    <div className="discount-text4">Tên sản phẩm Lorem ipsum dolor sit amet, consetetur</div>
+                    <div className="discount-text7">Mua 3 tặng 3</div>
+                    <div className="discount-text6">Sửa</div> 
+                    <div className="discount-text8">Thêm</div>
                 </div>
                 </div>
             </div>
