@@ -30,7 +30,7 @@ class ContentsFlow2 extends React.Component {
                 <div className="Order_Info">
                         <div className="Customer_Infor">
                             <div className="Contain_Avt">
-                                <img className="Avt" src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/276157024_1666304207047237_8727305944710191128_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8aenWkI5gjgAX_l5ukH&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT8Cgp7UvEUW9tWNNk7Nctw7aJrw-XBHIi1DlQYJgVpBDQ&oe=62B922A8" alt="" />
+                                <img className="Avt" src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/276157024_1666304207047237_8727305944710191128_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8QYHPxL77JsAX9RX-Rq&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT_0LxPnvqDYaHBILpbl_KH_QH7ccfSbBZwfvWmJzn2Qlw&oe=62BF1168" alt="" />
                             </div>
 
                         <div className="Name">Quốc Tuấn</div>
