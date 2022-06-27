@@ -1,6 +1,6 @@
 .contentsflow2 {
     margin: 4px 3.5px 4px 3.5px;
-    height: 164px;
+    height: 181px;
     border-radius: 12px;
     box-shadow: 2px 2px 8px #00000029;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -136,31 +136,63 @@
     color: #141414;
     opacity: 1;
 }
-.contentsflow2 .Order_Info .Datetime-price{
-    display: flex;
-}
-.contentsflow2 .Order_Info .Datetime-price .Datetime{
+
+.Datetime{
     top: 402px;
     left: 56px;
     width: 117px;
     height: 19px;
     /* UI Properties */
-    margin-right: 98px ;
-    text-align: right;
+    margin-left: 12px ;
     font: normal normal normal 14px/20px Open Sans;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
 }
-.contentsflow2 .Order_Info .Datetime-price .Price{
-    top: 402px;
-    left: 271px;
-    width: 68px;
+.Price{
+  /* Layout Properties */
+top: 439px;
+left: 56px;
+width: 68px;
+height: 19px;
+margin-left: 12px;
+margin-bottom: 10px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/20px Open Sans;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.price-toggle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.toggle{
+    display: flex;
+    width: 70px;
+    justify-content: space-around;
+
+}
+.toggle-1 ,.toggle-2,.toggle-3{
+    background-color: rgb(61, 196, 61);
+    width: 20px;
     height: 19px;
-    /* UI Properties */
-    text-align: left;
-    font: normal normal normal 14px/20px Open Sans;
-    letter-spacing: 0px;
-    color: #707070;
-    opacity: 1;
+    border-radius: 50% ;
+}
+.toggle-1{
+    padding-left: 2px;
+    padding-top: 2px;
+    margin-bottom: 13px;
+}
+.toggle-2{
+    padding-left: 4.4px;
+    padding-top: 0.5px;
+    margin-bottom: 13px;
+}
+.toggle-3{
+    padding-left: 4.4px;
+    padding-top: 0.5px;
+    margin-bottom: 13px;
 }
