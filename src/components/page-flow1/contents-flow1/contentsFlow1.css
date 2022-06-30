@@ -34,7 +34,7 @@
     margin-bottom: 7px;
     margin-right: 16px;
     text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
+    font: normal normal normal 14px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #007FFF;
     opacity: 1;
@@ -57,7 +57,7 @@
     margin-bottom: 7px;
     margin-right: 16px;
     text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
+    font: normal normal normal 14px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #007FFF;
     opacity: 1;
@@ -103,7 +103,7 @@
 .block1-1-locate {
     margin: 16px 0 1px 24px;
     text-align: left;
-    font: normal normal normal 14px/21px Open Sans;
+    font: normal normal normal 14px/21px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -121,7 +121,7 @@
 .block1-1-address-name1 {    
     text-align: left;
     text-decoration: underline;
-    font: normal normal normal 16px/18px Open Sans;
+    font: normal normal normal 16px/18px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
@@ -139,7 +139,7 @@
 .block1-1-address-name2 {
     text-align: left;
     text-decoration: underline;
-    font: normal normal normal 16px/22px Open Sans;
+    font: normal normal normal 16px/22px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
     text-transform: uppercase;
@@ -149,7 +149,7 @@
 .block1-1-content {
     margin-left: 24px;
     text-align: left;
-    font: normal normal normal 14px/18px Open Sans;
+    font: normal normal normal 14px/18px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -159,7 +159,7 @@
 .block1-1-name {
     margin-left: 24px;
     text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
+    font: normal normal normal 14px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -192,7 +192,7 @@
     padding-top: 16px; 
     height: 19px;
     text-align: left;
-    font: normal normal normal 14px/21px Open Sans;
+    font: normal normal normal 14px/21px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -205,7 +205,7 @@
     height: 22px;
     text-align: left;
     text-decoration: underline;
-    font: normal normal normal 16px/18px Open Sans;
+    font: normal normal normal 16px/18px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
@@ -221,7 +221,7 @@
 
 .block1-2-name-id {
     text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
+    font: normal normal normal 14px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -229,7 +229,7 @@
 
 .block1-2-name-content {
     text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
+    font: normal normal normal 14px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     text-transform: uppercase;
@@ -249,7 +249,7 @@
     margin-left: 24px;
     height: 19px;
     text-align: left;
-    font: normal normal normal 14px/21px Open Sans;
+    font: normal normal normal 14px/21px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -261,7 +261,7 @@
     margin-top: 10px; 
     height: 19px;
     text-align: left;
-    font: normal normal normal 14px/21px Open Sans;
+    font: normal normal normal 14px/21px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -271,7 +271,7 @@
     padding-top: 10px; 
     height: 26px;
     text-align: left;
-    font: normal normal normal 14px/21px Open Sans;
+    font: normal normal normal 14px/21px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -281,7 +281,7 @@
     margin-top: 44px; 
     height: 19px;
     text-align: left;
-    font: normal normal normal 14px/21px Open Sans;
+    font: normal normal normal 14px/21px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -294,7 +294,7 @@
     margin-left: 16px;
     margin-top: 1px;
     text-align: left;
-    font: normal normal normal 16px/22px Open Sans;
+    font: normal normal normal 16px/22px 'Open Sans';
     letter-spacing: 0px;
     color: #007FFF;
     opacity: 1;
@@ -305,7 +305,7 @@
     margin-top: 2px;
     text-align: left;
     text-decoration: underline;
-    font: normal normal normal 16px/22px Open Sans;
+    font: normal normal normal 16px/22px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
@@ -404,7 +404,7 @@
     height: 22px;
     text-align: left;
     text-decoration: underline;
-    font: normal normal normal 16px/22px Open Sans;
+    font: normal normal normal 16px/22px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
@@ -436,7 +436,7 @@
     margin-top: 2px;
     text-align: left;
     text-decoration: underline;
-    font: normal normal normal 16px/22px Open Sans;
+    font: normal normal normal 16px/22px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
@@ -465,7 +465,7 @@
   .nav_sub-item-text{
     background: #FFFFFF00 0% 0% no-repeat padding-box;
     text-align: left;
-    font: normal normal normal 16px/19px Open Sans;
+    font: normal normal normal 16px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
     
@@ -549,7 +549,7 @@
     margin-left: 8px;
     margin-top: 4px;
     text-align: left;
-    font: normal normal normal 16px/19px Open Sans;
+    font: normal normal normal 16px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #141414;
   }
@@ -572,7 +572,7 @@
   .search-container2 input[type="text"] {
     outline: none;
     text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
+    font: normal normal normal 14px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #707070;
     border: transparent;
@@ -768,4 +768,12 @@ svg{
   width: 14px;
   height: 10.5px;
   margin-top: 2px;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Open_Sans/OpenSans-Regular.woff2') format('woff2'),
+      url('../Open_Sans/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
