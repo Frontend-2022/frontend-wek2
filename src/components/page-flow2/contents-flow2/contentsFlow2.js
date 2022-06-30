@@ -1,22 +1,21 @@
-import React from "react";
-import ReactDOM from 'react-dom';
-import { useState } from "react";
+import React,{useState} from "react";
 import './contentsFlow2.css';
 
 
-class ContentsFlow2 extends React.Component {
-    render(){
-        const handleToggleClick = () =>{
-            const toggle_1 = document.querySelector('.toggle-1')
-            const arrayColor = ['#D6D6D6','#34C759'];
-            toggle_1.style.background='#34C759';
-            // toggle_1.style.backgroundColor = arrayColor;
+function ContentsFlow2 () {
+       const [state,setState] =useState(false);
+        const toggle=() =>{
+            setState (!state);
+        }
+        const [state_2,setState_2] =useState(false);
+        const toggle_2=() =>{
+            setState_2 (!state_2);
+        }
+        const [state_3,setState_3] =useState(false);
+        const toggle_3=() =>{
+            setState_3 (!state_3);
+        }
 
-        }
-        const handleToggleClick2 = () =>{
-            const toggle_2 = document.querySelector('.toggle-2')
-            toggle_2.style.background="#34C759"
-        }
         return(
             <div className="contentsflow2">
                 <div className="Cart_Code">
@@ -53,15 +52,16 @@ class ContentsFlow2 extends React.Component {
                     <div className="price-toggle">
                         <div className="Price">1.600.000đ</div>
                         <div className="toggle">
-                            <button className="toggle-1" onClick={()=> {handleToggleClick()} }>
+                            <button onClick={toggle} className= {'toggle-1' + (state ? '': ' toggleClose')}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
                                 <g id="Group_17858" data-name="Group 17858" transform="translate(-361 -3478)">
                                     <rect id="Rectangle_8141" data-name="Rectangle 8141" width="14" height="14" transform="translate(361 3478)" fill="none"/>
                                     <path id="money-check-edit" d="M14,4.917V5.5a.583.583,0,0,1-1.167,0V4.917a1.752,1.752,0,0,0-1.75-1.75H2.917a1.752,1.752,0,0,0-1.75,1.75V10.75a1.752,1.752,0,0,0,1.75,1.75h1.75a.583.583,0,1,1,0,1.167H2.917A2.92,2.92,0,0,1,0,10.75V4.917A2.92,2.92,0,0,1,2.917,2h8.167A2.92,2.92,0,0,1,14,4.917Zm-.513,2.846a1.75,1.75,0,0,1,0,2.475L9.575,14.15a2.319,2.319,0,0,1-1.65.684H7a.583.583,0,0,1-.583-.583v-.925a2.316,2.316,0,0,1,.684-1.65l3.912-3.912a1.751,1.751,0,0,1,2.474,0ZM12.833,9a.583.583,0,0,0-1-.412L7.925,12.5a1.177,1.177,0,0,0-.342.825v.342h.342a1.159,1.159,0,0,0,.825-.342l3.912-3.912A.579.579,0,0,0,12.833,9ZM5.25,9.583H3.927a.587.587,0,0,1-.506-.292.583.583,0,1,0-1.009.584,1.755,1.755,0,0,0,1.515.874h.156a.583.583,0,0,0,1.167,0A1.752,1.752,0,0,0,7,9,1.611,1.611,0,0,0,5.65,7.406l-1.774-.3A.448.448,0,0,1,3.5,6.667a.584.584,0,0,1,.583-.583H5.407a.587.587,0,0,1,.506.292.583.583,0,1,0,1.009-.584,1.755,1.755,0,0,0-1.515-.875H5.25a.583.583,0,0,0-1.167,0,1.752,1.752,0,0,0-1.75,1.75A1.611,1.611,0,0,0,3.684,8.26l1.774.3A.448.448,0,0,1,5.833,9a.584.584,0,0,1-.583.583Z" transform="translate(361 3476.583)" fill="#fff"/>
                                 </g>
                                 </svg>
+
                             </button>
-                            <button className="toggle-2" onClick={()=> {handleToggleClick2()} }>
+                            <button onClick={toggle_2} className= {'toggle-2' + (state_2 ? '': ' toggleClose')}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                 <g id="upload" transform="translate(-0.011 -0.001)">
                                     <path id="Path_16719" data-name="Path 16719" d="M112.6,3.326l1.391-1.391L114,8.751a.75.75,0,0,0,.75.75h0a.75.75,0,0,0,.75-.75l-.01-6.807,1.383,1.383a.75.75,0,1,0,1.079-1.042l-.018-.018L116.325.66a2.25,2.25,0,0,0-3.182,0h0l-1.606,1.606A.75.75,0,0,0,112.6,3.326Z" transform="translate(-108.707 0)" fill="#fff"/>
@@ -69,7 +69,7 @@ class ContentsFlow2 extends React.Component {
                                 </g>
                                 </svg>
                             </button>
-                            <button className="toggle-3">
+                            <button onClick={toggle_3} className= {'toggle-3' + (state_3 ? '': ' toggleClose')}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                 <path id="data-transfer_1_" data-name="data-transfer (1)" d="M4,0H2A2,2,0,0,0,0,2v.5a2,2,0,0,0,2,2h.5v1h-1a.5.5,0,1,0,0,1h3a.5.5,0,1,0,0-1h-1v-1H4a2,2,0,0,0,2-2V2A2,2,0,0,0,4,0ZM5,2.5a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V2A1,1,0,0,1,2,1H4A1,1,0,0,1,5,2Zm5,3H9a2,2,0,0,0-2,2V10a2,2,0,0,0,2,2h1a2,2,0,0,0,2-2V7.5A2,2,0,0,0,10,5.5ZM11,10a1,1,0,0,1-1,1H9a1,1,0,0,1-1-1V7.5a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1ZM7,2a.5.5,0,0,1,.5-.5h1A1.5,1.5,0,0,1,10,3V4A.5.5,0,0,1,9,4V3a.5.5,0,0,0-.5-.5h-1A.5.5,0,0,1,7,2ZM6,10a.5.5,0,0,1-.5.5H4A1.5,1.5,0,0,1,2.5,9V8a.5.5,0,1,1,1,0V9a.5.5,0,0,0,.5.5H5.5A.5.5,0,0,1,6,10Zm4,0a.5.5,0,1,1-.5-.5A.5.5,0,0,1,10,10Z" transform="translate(0)" fill="#fff"/>
                                 </svg>
@@ -79,8 +79,8 @@ class ContentsFlow2 extends React.Component {
                 </div>
 
             </div>  /* contentsFlow2 */
-        )
+        );
     }
-}
+
 
 export default ContentsFlow2;

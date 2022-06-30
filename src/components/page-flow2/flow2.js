@@ -1,19 +1,19 @@
 import React from "react";
 import '../Basis/grid.css';
 // import { Link } from "react-router-dom";
-import Nav from '../Navigation/nav'; 
+import Nav from '../Navigation/nav';
 import './flow2.css';
 import ContentsFlow2 from "./contents-flow2/contentsFlow2";
 import HeaderFlow2 from "./header-flow2/headerFlow2";
+import ContentFlow2col2 from "./contentFlow2col2/contentFlow2col2"
 
-class Flow2 extends React.Component {
-    render() {
+function Flow2 (){
         return(
             <div className="flow2">
                 <Nav />
                 <div className="grid wide">
-                
-                    <HeaderFlow2 />   
+
+                    <HeaderFlow2 />
 
                     <div className="container">
                         <div className="container__category">
@@ -72,7 +72,7 @@ class Flow2 extends React.Component {
                                     <span className="container__title-number">1 đơn</span>
                                 </div>
                             </div>
-                        
+
                         </div>
 
                         <div className="row sm-gutter container-flow2-2">
@@ -105,7 +105,7 @@ class Flow2 extends React.Component {
                                     <ContentsFlow2 />
                                 </div>
                             </div>
-                                
+
 
                         </div>
 
@@ -116,6 +116,6 @@ class Flow2 extends React.Component {
             </div>
         )
     }
-}
+
 
 export default Flow2;
