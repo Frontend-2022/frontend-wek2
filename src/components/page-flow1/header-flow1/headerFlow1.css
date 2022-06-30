@@ -1,10 +1,9 @@
 .header-flow1 {
-    width: 1286px;
+    width: 1366px;
     height: 110px;
-    margin: 26px 40px 0 40px;
+    margin: 26px 40px 0 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -12,6 +11,7 @@
 .header-flow1__name {
     display: flex;
     align-items: flex-end;
+    width: 550px;
 }
 
 .header-flow1__name-info {
@@ -29,6 +29,7 @@
 }
 
 .header-flow1__name-compname {
+    width: 330px;
     height: 36px;
     text-align: left;
     font: normal normal 600 26px/36px Open Sans;
@@ -44,7 +45,7 @@
 .header-flow1__action-btn {    
     width: 101px;
     height: 26px;
-    margin: 0 6px;
+    margin: 0 9px;
     background: #00C7BE00 0% 0% no-repeat padding-box;
     border: 1px solid #FF9500;
     border-radius: 3px;
@@ -52,7 +53,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: right;
     font: normal normal 600 14px/19px Open Sans;
     letter-spacing: 0px;
@@ -69,6 +69,8 @@
 .header-flow1__button {
     display: flex;
     align-items: center;
+    margin-right: 40px;
+    margin-left: 433px;
 }   
 
 .header-flow1__button-print,

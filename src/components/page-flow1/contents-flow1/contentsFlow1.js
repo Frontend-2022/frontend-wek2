@@ -159,7 +159,7 @@ class ContentsFlow1 extends React.Component {
                                     <div className="test-hover">
                                         <div class="search-container2">
                                             <div className="input-grid">
-                                                <input type="text" placeholder="Search.." name="search"></input>
+                                                <input type="text" placeholder="Nhập tên, ID nhân viên" name="search"></input>
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" id="Group_13362" data-name="Group 13362" width="14" height="14" viewBox="0 0 14 14">
                                                         <rect id="Rectangle_5105" data-name="Rectangle 5105" width="14" height="14" fill="none"/>
@@ -240,8 +240,9 @@ class ContentsFlow1 extends React.Component {
 
                                 <div className="test-hover">
 
-                                    <div class="search-container">
-                                        <input type="text" placeholder="Search.." name="search"></input>
+                                    <div class="search-container2">
+                                        <div className="input-grid">
+                                        <input type="text" placeholder="Nhập tên, ID nhân viên" name="search"></input>
                                         <button><svg xmlns="http://www.w3.org/2000/svg" id="Group_13362" data-name="Group 13362" width="14" height="14" viewBox="0 0 14 14">
                                                 <rect id="Rectangle_5105" data-name="Rectangle 5105" width="14" height="14" fill="none"/>
                                                 <g id="search-interface-symbol" transform="translate(0)">
@@ -252,7 +253,7 @@ class ContentsFlow1 extends React.Component {
                                                     </g>
                                                 </g>
                                                 </svg></button>
-                                    </div>
+                                                </div>                                    </div>
                                         <div className="nav_sub-item ">
                                         <div className="nav_sub-item-imagegrid">
                                         <div className="nav_sub-item-text ">
@@ -310,8 +311,9 @@ class ContentsFlow1 extends React.Component {
 
                                     <div className="test-hover">
 
-                                        <div class="search-container">
-                                        <input type="text" placeholder="Search.." name="search"></input>
+                                        <div class="search-container2">
+                                        <div className="input-grid">
+                                        <input type="text" placeholder="Nhập tên, ID nhân viên" name="search"></input>
                                         <button><svg xmlns="http://www.w3.org/2000/svg" id="Group_13362" data-name="Group 13362" width="14" height="14" viewBox="0 0 14 14">
                                                 <rect id="Rectangle_5105" data-name="Rectangle 5105" width="14" height="14" fill="none"/>
                                                 <g id="search-interface-symbol" transform="translate(0)">
@@ -322,6 +324,7 @@ class ContentsFlow1 extends React.Component {
                                                     </g>
                                                 </g>
                                                 </svg></button>
+                                                </div>
                                         </div>
                                             <div className="nav_sub-item ">
                                             <div className="nav_sub-item-imagegrid">
