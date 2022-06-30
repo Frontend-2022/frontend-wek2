@@ -1,10 +1,22 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 import { useState } from "react";
 import './contentsFlow2.css';
 
 
 class ContentsFlow2 extends React.Component {
     render(){
+        const handleToggleClick = () =>{
+            const toggle_1 = document.querySelector('.toggle-1')
+            const arrayColor = ['#D6D6D6','#34C759'];
+            toggle_1.style.background='#34C759';
+            // toggle_1.style.backgroundColor = arrayColor;
+
+        }
+        const handleToggleClick2 = () =>{
+            const toggle_2 = document.querySelector('.toggle-2')
+            toggle_2.style.background="#34C759"
+        }
         return(
             <div className="contentsflow2">
                 <div className="Cart_Code">
@@ -41,7 +53,7 @@ class ContentsFlow2 extends React.Component {
                     <div className="price-toggle">
                         <div className="Price">1.600.000đ</div>
                         <div className="toggle">
-                            <button className="toggle-1" >
+                            <button className="toggle-1" onClick={()=> {handleToggleClick()} }>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
                                 <g id="Group_17858" data-name="Group 17858" transform="translate(-361 -3478)">
                                     <rect id="Rectangle_8141" data-name="Rectangle 8141" width="14" height="14" transform="translate(361 3478)" fill="none"/>
@@ -49,7 +61,7 @@ class ContentsFlow2 extends React.Component {
                                 </g>
                                 </svg>
                             </button>
-                            <button className="toggle-2">
+                            <button className="toggle-2" onClick={()=> {handleToggleClick2()} }>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                 <g id="upload" transform="translate(-0.011 -0.001)">
                                     <path id="Path_16719" data-name="Path 16719" d="M112.6,3.326l1.391-1.391L114,8.751a.75.75,0,0,0,.75.75h0a.75.75,0,0,0,.75-.75l-.01-6.807,1.383,1.383a.75.75,0,1,0,1.079-1.042l-.018-.018L116.325.66a2.25,2.25,0,0,0-3.182,0h0l-1.606,1.606A.75.75,0,0,0,112.6,3.326Z" transform="translate(-108.707 0)" fill="#fff"/>
