@@ -8,17 +8,13 @@
     
 }
 .category-container{
-    width: 297px;
     height: 32px;
     background: #FFFFFF00 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 .category-container-position{
     height: 32px;
-    width: 297px;
 }
  .list1{
-    width: 96px;
     height: 32px;
     background: #FFFFFF00 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -27,7 +23,6 @@
     
 
 .text1{
-    width: 64px;
     height: 19px;
     margin-left: 16px;
     margin-top: 6px;
@@ -37,11 +32,39 @@
     font: normal normal normal 14px/19px 'Open Sans';
     letter-spacing: 0px;
     color: #007FFF;
-    opacity: 1;
+    /* display: none; */
     
 }
+.text10{
+  height: 19px;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 7px;
+  margin-right: 16px;
+  text-align: left;
+  font: normal normal normal 14px/19px 'Open Sans';
+  letter-spacing: 0px;
+  color: #007FFF;
+}
+.text1-1{
+  height: 19px;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 7px;
+  margin-right: 16px;
+  text-align: left;
+  font: normal normal bold 14px/19px 'Open Sans';
+  color: #141414;
+  letter-spacing: 0px;
+  /* display: none; */
+}
+.text1:hover .text1-1{
+  display: block;
+}
+.text1:hover{
+  display: none;
+}
 .list2{
-    width: 108px;
     height: 32px;
     margin-left: 0px;
     background: #FFFFFF00 0% 0% no-repeat padding-box;
@@ -50,7 +73,6 @@
 
 }
 .text2{
-    width: 70px;
     height: 19px;
     margin-left: 16px;
     margin-top: 6px;
@@ -64,11 +86,8 @@
     
 }
 .list3{
-    width: 93px;
     height: 32px;
     background: #FFFFFF00 0% 0% no-repeat padding-box;
-    opacity: 1;
-
 }
 
 /*  */

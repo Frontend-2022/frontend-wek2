@@ -11,15 +11,16 @@ class ContentsFlow1 extends React.Component {
         return(
             <div className="contentsflow1">
                 <div className="category-container">
-                    <div id="list" className="row container-category-position">
+                    <div className="row container-category-position">
                         <div className="list1">
                             <div className="text1">Đơn hàng</div>
+                            <div className="text1-1">Nội dung</div>
                         </div>
                         <div className="list2">
                             <div className="text2">Vận chuyển</div>
                         </div>
                         <div className="list3">
-                            <div className="text1">Chứng từ</div>
+                            <div className="text10">Chứng từ</div>
                         </div>
                     </div>
                 </div>

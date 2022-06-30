@@ -63,6 +63,7 @@
 
 .discount-grid{
     height: 52px;
+    width: 800px;
     border-bottom: 1px solid #E0E0E0;
     display: flex;
 }
@@ -74,7 +75,7 @@
 .discount-text3{
     height: 19px;
     padding-right: 16px;
-    padding-left: 413px;
+    padding-left: 397px;
     padding-top: 20px;
     padding-bottom: 15px;
     text-align: right;
@@ -86,7 +87,6 @@
 
 .discount-text4{
     height: 19px;
-    width: 458px;
     padding-left: 16px;
     padding-top: 20px;
     padding-bottom: 14px;
@@ -100,7 +100,7 @@
 .discount-text5{
     height: 19px;
     padding-right: 16px;
-    padding-left: 147px;
+    padding-left: 232px;
     padding-top: 20px;
     padding-bottom: 15px;
     text-align: right;
@@ -111,7 +111,6 @@
 }
 
 .discount-text6{
-    width: 60px;
     height: 50px;
     padding-right: 16px;
     padding-left: 20px;
@@ -126,7 +125,7 @@
 .discount-text7{
     height: 19px;
     padding-right: 0px;
-    padding-left: 105px;
+    padding-left: 185px;
     padding-top: 20px;
     padding-bottom: 15px;
     text-align: right;
