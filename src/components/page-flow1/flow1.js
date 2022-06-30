@@ -12,8 +12,9 @@ class Flow1 extends React.Component {
     render() {
         return(
             <div className="flow1">
-                <Nav />
+                
                 <div className="grid wide1">
+                    <Nav />
                     <HeaderFlow1 />
                     
                     <div className="contents-flow1">

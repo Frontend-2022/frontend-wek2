@@ -21,7 +21,7 @@
 /* wide for flow1 */
 .grid.wide1 {
     max-width: 1366px;
-    margin: 0 40px 0 40px;
+    margin: 0 auto;
 }
 
 .row {
