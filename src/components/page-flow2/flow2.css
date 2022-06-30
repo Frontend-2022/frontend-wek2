@@ -144,4 +144,11 @@
     padding-top: 1px;
     height: 1350px;
 }
-
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../page-flow1/Open_Sans/OpenSans-Regular.woff2') format('woff2'),
+        url('../page-flow1/Open_Sans/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
