@@ -31,7 +31,7 @@
     display: flex;
     top: 277px;
     left: 56px;
-    width: 144px;
+    /* width: 144px; */
     height: 20px;
     padding-left: 12px;
     padding-top: 10px;
@@ -53,7 +53,7 @@
 .contentsflow2 .Cart_Code .Code{
     top: 278px;
     left: 84px;
-    width: 116px;
+    /* width: 116px; */
     height: 17px;
     color: #4C4C4C;
     font-size: 12px;
@@ -66,7 +66,7 @@
 .contentsflow2 .Content{
     top: 307px;
     left: 56px;
-    width: 287px;
+    /* width: 287px; */
     height: 37px;
     padding-left: 12px;
     margin-top: 16px ;
@@ -80,7 +80,7 @@
 .contentsflow2 .address{
     top: 346px;
     left: 56px;
-    width: 287px;
+    /* width: 287px; */
     height: 19px;
     text-align: left;
     padding-left: 12px;
@@ -102,7 +102,7 @@
     display: flex;
     top: 381px;
     left: 56px;
-    width: 98px;
+    /* width: 98px; */
     height: 19px;
     padding-left: 12px;
     margin-top: 20px;
@@ -127,7 +127,7 @@
 .contentsflow2 .Order_Info .Customer_Infor .Name{
     top: 381px;
     left: 83px;
-    width: 71px;
+    /* width: 71px; */
     height: 19px;
     margin-left: 5px;
     text-align: left;
@@ -140,7 +140,7 @@
 .Datetime{
     top: 402px;
     left: 56px;
-    width: 117px;
+    /* width: 117px; */
     height: 19px;
     /* UI Properties */
     margin-left: 12px ;
@@ -153,7 +153,7 @@
   /* Layout Properties */
 top: 439px;
 left: 56px;
-width: 68px;
+/* width: 68px; */
 height: 19px;
 margin-left: 12px;
 margin-bottom: 10px;
@@ -175,7 +175,7 @@ opacity: 1;
     width: 70px;
     justify-content: space-between;
     /* margin-right:12px ; */
-    margin-left: 141px;
+    margin-left: 135px;
 
 }
 .toggle-1 ,.toggle-2, .toggle-3{
@@ -206,12 +206,12 @@ opacity: 1;
 }
 
 .toggle-2{
-    padding-left: 4.4px;
+    padding-left: 2.7px;
     padding-top: 0.5px;
     margin-bottom: 13px;
 }
 .toggle-3{
-    padding-left: 4.4px;
+    padding-left: 3.5px;
     padding-top: 0.7px;
     margin-bottom: 13px;
 }
