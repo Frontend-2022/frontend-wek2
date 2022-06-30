@@ -127,7 +127,7 @@ left: 0;
 }
 .header-btn1 {
     /* top: -2px; */
-    left: 0;
+    /* left: 0; */
     bottom: 0px;
     right: 0;
     opacity: 1;
@@ -170,9 +170,9 @@ left: 0;
     transition-delay: 3s;
 }
 .but_contain{
-    width: 186px;
+    /* width: 186px; */
     height: 32px;
-    display: flex;
+    /* display: flex; */
 }
 .but_contain:hover .icon-setting-add{
     position: relative;

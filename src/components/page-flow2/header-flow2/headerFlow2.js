@@ -27,7 +27,7 @@ class HeaderFlow2 extends React.Component {
                 </div>
 
                 <div className="header__nav">
-                    <Link to='#' class="header__nav-card">
+                    {/* <Link to='#' class="header__nav-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
                             <g id="Group_12824" data-name="Group 12824" transform="translate(-13146 1664)">
                                 <rect id="Rectangle_5975" data-name="Rectangle 5975" width="14" height="14" transform="translate(13146 -1664)" fill="none"/>
@@ -60,9 +60,9 @@ class HeaderFlow2 extends React.Component {
                             </g>
                         </svg>
                         <span className="header__nav-card-table">Bảng</span>
-                    </Link>
+                    </Link> */}
                     <div className="but_contain">
-                        <div className="icon-setting-add">
+                        {/* <div className="icon-setting-add">
                                 <Link to='#' className="header__nav-setting">
                                     <div className="header__nav-setting-iconSetting">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="15.857" height="16" viewBox="0 0 15.857 16">
@@ -77,13 +77,13 @@ class HeaderFlow2 extends React.Component {
                                         </svg>
                                     </div>
                                 </Link>
-                        </div>
-                                <Link to='/flow1'>
-                                    <div className="btn1_btn2">
-                                    <button className="header-btn1">Tạo đơn</button>
-                                    <button className="header-btn2">Lorem ipsum</button>
-                                    </div>
-                                </Link>
+                        </div> */}
+                        <Link to='/flow1'>
+                            <div className="btn1_btn2">
+                                <button className="header-btn1">Tạo đơn</button>
+                                <button className="header-btn2">Lorem ipsum</button>
+                            </div>
+                        </Link>
 
                     </div>
                 </div>
