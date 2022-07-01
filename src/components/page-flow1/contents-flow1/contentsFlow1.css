@@ -23,6 +23,7 @@
     
 
 .text1{
+    width: 64px;
     height: 19px;
     margin-left: 16px;
     margin-top: 6px;
@@ -47,6 +48,7 @@
   color: #007FFF;
 }
 .text1-1{
+  width: 64px;
   height: 19px;
   margin-left: 16px;
   margin-top: 6px;
@@ -56,14 +58,14 @@
   font: normal normal bold 14px/19px 'Open Sans';
   color: #141414;
   letter-spacing: 0px;
-  /* display: none; */
+  display: none;
 }
-.text1:hover .text1-1{
+/* .text1:hover .text1-1{
   display: block;
 }
 .text1:hover{
-  display: none;
-}
+  display: none; 
+}*/
 .list2{
     height: 32px;
     margin-left: 0px;
@@ -649,9 +651,9 @@
     display: none;
     color: #00000014;
   }
-  .nav_sub2-item2:hover .image1{
+  /* .nav_sub2-item2:hover .image1{
     display: block;
-  }
+  } */
   .nav_sub-item:hover .image4{
     display: block;
   }
@@ -676,9 +678,9 @@
     margin-bottom: 11px;
   }
 
-  .block2-1-1-1:hover .test-hover{
+  /* .block2-1-1-1:hover .test-hover{
     display: block;
-  }
+  } */
 
 .test-hover {
   position: absolute;
@@ -693,6 +695,22 @@
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
   display: none;
 }
+
+/* .test-hover .test1111 {
+  display: block;       
+}
+
+
+.test1111 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #00000029 0% 0% no-repeat padding-box;
+  display: none;
+} */
+
 
 /* .test-hover::before {
   content: "";
@@ -733,9 +751,9 @@
   background-color: transparent;
 } */
 
-.block2-1-1-2:hover .test-hover {
+/* .block2-1-1-2:hover .test-hover {
   display: block;
-}
+} */
 
 .block2-1-1-2-hover:hover {
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
@@ -753,10 +771,10 @@
   height: 10px;
   background-color: transparent;
 } */
-
+/* 
 .block2-2-1-1:hover .test-hover {
   display: block;
-}
+} */
 
 .block2-2-1-1-hover:hover {
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
@@ -775,9 +793,9 @@
   background-color: transparent;
 } */
 
-.block2-2-1-1:hover .test-hover {
+/* .block2-2-1-1:hover .test-hover {
   display: block;
-}
+} */
 
 .block2-2-1-1-hover2:hover {
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
