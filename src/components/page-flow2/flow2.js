@@ -29,7 +29,7 @@ function Flow2 (){
                                     </div>
                                 </div>
                                 <div className="col l-2-4">
-                                    <div className="container__category-list container__category-list--active">
+                                    <div className="container__category-list">
                                         <span>Vận chuyển</span>
                                     </div>
                                 </div>
