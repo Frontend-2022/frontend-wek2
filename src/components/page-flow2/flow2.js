@@ -5,7 +5,7 @@ import Nav from '../Navigation/nav';
 import './flow2.css';
 import ContentsFlow2 from "./contents-flow2/contentsFlow2";
 import HeaderFlow2 from "./header-flow2/headerFlow2";
-import ContentFlow2col2 from "./contentFlow2col2/contentFlow2col2"
+
 
 function Flow2 (){
         return(
