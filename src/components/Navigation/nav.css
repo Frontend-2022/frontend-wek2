@@ -55,6 +55,27 @@
     position: relative;
 }
 
+.navigation__name-hidden {
+    border: none;
+    animation: fadeBoderOut ease-out 0.3s;
+}
+.navigation__name-hidden:hover {
+    border: 1px solid #D6D6D6;    
+}
+
+@keyframes fadeBoderOut {
+    from {      
+        border: 1px solid #141414;
+    }
+    to {
+        border: none;  
+    }
+}
+
+.navigation__name-hidden .navigation__name-icon2 {
+    display: none;
+}
+
 .navigation__name-icon1 {
     position: absolute;
     width: 12px;
