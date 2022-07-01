@@ -1,15 +1,13 @@
 import React,{useState} from "react";
 import './contentsFlow1.css';
-import Flow1 from "../flow1";
+
 
 function ContentsFlow1(){
     const [appear,setAppear] =useState(false);
-    const [click,setCLick] =useState(false);
     const makeappear=()=>{
         if(appear){
             document.getElementById('text1').style.display = 'none';
             document.getElementById('text1-1').style.display = 'block';
-            Flow1.style.display = 'blur';
         }
         else{
             document.getElementById('text1-1').style.display = 'none';
@@ -18,16 +16,10 @@ function ContentsFlow1(){
         setAppear(!appear);
     }
     const makeappear1=(id)=>{
-        if(appear) {
+        if(appear) 
             document.getElementById(id).style.display = 'block';
-            setCLick(!click);
-        }
         else{ document.getElementById(id).style.display = 'none';}
         setAppear(!appear);
-    }
-    const remainappear=(id)=>{
-        if(!click)
-            document.getElementById(id).style.display = 'block';
     }
         return(
             <div className="contentsflow1">
@@ -104,7 +96,7 @@ function ContentsFlow1(){
                                         </div>
                                     </div>
 
-                                    <div onClick={()=>remainappear('test-hover1')}  className="nav_sub2-item2 ">
+                                    <div className="nav_sub2-item2 ">
                                         <div className="nav_sub2-item2-imagegrid">
                                             <div className="nav_sub2-item2-image"></div>
                                             <div className="nav_sub2-item-text2">Nguyễn Văn Mười Ba</div>
