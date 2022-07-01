@@ -6,22 +6,23 @@ import './headerFlow1.css';
 class HeaderFlow1 extends React.Component {
     render() {
         return(
+            <div className="header-flow1-index">
             <div className="header-flow1">
                 <div className="header-flow1__name">
                     <div className="header-flow1__name-info">
                         <div className="header-flow1__name-id">#4859340543695496594</div>
                         <div className="header-flow1__name-compname">Cty TNHH MTV Mặt trời đỏ</div>
                     </div>
-                    <Link to="#" className="header-flow1__action">
+                    <div className="header-flow1__action">
                         <div className="header-flow1__action-btn header-flow1__action-btn--active">
                             Chưa duyệt
                         </div>
-                    </Link>
-                    <Link to="#" className="header-flow1__action">
+                    </div>
+                    <div className="header-flow1__action">
                         <div className="header-flow1__action-btn">
                             Chờ duyệt
                         </div>
-                    </Link>
+                    </div>
                 </div>
                 <div className="header-flow1__button">
                     <div className="header-flow1__button-print">
@@ -66,6 +67,7 @@ class HeaderFlow1 extends React.Component {
                         <button className="header-flow1__button-done"> Duyệt đơn </button>
                     </Link>
                 </div>
+            </div>
             </div>
         )
     }

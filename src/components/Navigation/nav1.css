@@ -1,12 +1,21 @@
+.navigation1-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
 .navigation1 {
     background-color: #fff;
-    width: 100%;
+    width: 1366px;
+    margin: 0 auto;
     height: var(--header-nav);
     text-decoration: none;
     display: flex;
     align-items: center;
     position: relative;
-  }
+}
 
 .navigation1__icon {
     width: 16px;
@@ -17,6 +26,12 @@
     margin-right: 20px;
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+.navigation1__icon-size {
+    width: 16px;
+    height: 16px;
+    margin: 0;
 }
 
 .navigation1__name {

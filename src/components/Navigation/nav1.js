@@ -5,10 +5,11 @@ import './nav1.css';
 class Nav1 extends React.Component {
     render() {
         return(
+            <div className="navigation1-fixed">
             <div class="navigation1">
                 
                 <a class="navigation1__icon" href="/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <svg className="navigation1__icon-size" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
                         <g id="Group_13202" data-name="Group 13202" transform="translate(3141 24529)">
                             <rect id="Rectangle_6083" data-name="Rectangle 6083" width="16" height="16" transform="translate(-3141 -24529)" fill="none"/>
                             <g id="_01_align_center" data-name="01 align center" transform="translate(-3143.059 -24529.012)">
@@ -19,6 +20,7 @@ class Nav1 extends React.Component {
                 </a>
                 <div class="navigation1-name">Trở về lorem ipsum</div>
                 
+            </div>
             </div>
         )
     }
