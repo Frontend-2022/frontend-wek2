@@ -3,8 +3,9 @@ import './headerFlow2.css';
 import { Link } from "react-router-dom";
 
 
-class HeaderFlow2 extends React.Component {
-    render() {
+function HeaderFlow2()
+{
+
         return(
             <div className="header">
 
@@ -89,7 +90,7 @@ class HeaderFlow2 extends React.Component {
                 </div>
             </div>
         )
-    }
+
 }
 
 export default HeaderFlow2;
