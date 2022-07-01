@@ -8,7 +8,7 @@ function HeaderFlow2()
 
         return(
             <div className="header">
-
+                <div class="header__name">Đơn hàng: Đóng gói</div>
                 <div className="header__search">
                     <div className="header__search-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
@@ -24,7 +24,7 @@ function HeaderFlow2()
                             </g>
                         </svg>
                     </div>
-                    <input type="text" className="header__search-input" placeholder="Mã đơn, tên khách hàng, tên người bán" />
+                    <input type="text" className="header__search-input" placeholder="Mã đơn, tên khách hàng, tên NV bán hàng" />
                 </div>
 
                 <div className="header__nav">

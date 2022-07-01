@@ -1,20 +1,33 @@
 .header {
-    margin-top: 16px;
-    height: 96px;
+    margin-bottom: 24px;
+    height: 112px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
+    position: relative;
+}
+
+.header__name {
+    height: 24px;
+    text-align: left;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
 }
 
 .header__search {
-    width: 334px;
+    width: 400px;
     height: 32px;
     border-radius: 12px;
     border: 1px solid #D9D9D9;
     display: flex;
     align-items: center;
     background-color: #F7F7F7;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .header__search-icon {

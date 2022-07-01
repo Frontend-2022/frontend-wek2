@@ -35,8 +35,7 @@
     opacity: 1;
 }
 
-
-.container__category-list:hover {
+.container__category-list--active {
     cursor: pointer;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 1px 1px 2px #00000029;
@@ -44,7 +43,7 @@
     opacity: 1;
 
 }
-.container__category-list:hover span {
+.container__category-list--active span {
     font: normal normal 600 14px/19px Open Sans;
     letter-spacing: 0px;
     color: #141414;

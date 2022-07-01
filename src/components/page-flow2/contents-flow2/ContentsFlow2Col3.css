@@ -1,0 +1,40 @@
+/*contents flow3 */
+.toggleCol3-1 ,.toggleCol3-2 ,.toggleCol3-3{
+    background-color: #34C759;
+    width: 20px;
+    height: 19px;
+    border-radius: 50% ;
+    margin-left: 7px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.toggleCol3-1{
+    padding-left: 2.2px;
+    padding-top: 2.2px;
+    margin-bottom: 13px;
+}
+
+.toggleCol3-2{
+    padding-left: 2.7px;
+    padding-top: 0.5px;
+    margin-bottom: 13px;
+}
+
+.toggleCol3-3{
+    padding-left: 3.5px;
+    padding-top: 0.7px;
+    margin-bottom: 13px;
+}
+.toggleCloseCol3-1{
+    /* background-color: #34C759; */
+    background-color: #D6D6D6;
+   width: 20px;
+   height: 19px;
+   border-radius: 50% ;
+   margin-left: 7px;
+   border: none;
+   cursor: pointer;
+}
+
