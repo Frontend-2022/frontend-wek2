@@ -1,7 +1,10 @@
 .navigation {
     background-color: #fff;
     border-bottom: 1px solid #E0E0E0;
-    width: 100%;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    width: 1366px;
+    margin: 0 auto;
     height: var(--header-nav);
     text-decoration: none;
     display: flex;
@@ -40,7 +43,8 @@
 .navigation__name {
     width: 90px;
     height: 32px;
-    margin-left: 596px;
+    /* margin-left: 596px; */
+    margin: 0 auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #141414;
     border-radius: 12px;
