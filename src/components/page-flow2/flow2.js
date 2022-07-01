@@ -5,8 +5,7 @@ import Nav from '../Navigation/nav';
 import './flow2.css';
 import ContentsFlow2 from "./contents-flow2/contentsFlow2";
 import HeaderFlow2 from "./header-flow2/headerFlow2";
-
-
+import ContentsFlow2Col2 from "./contents-flow2/contentsFlow2Col2"
 function Flow2 (){
         return(
             <div className="flow2">
@@ -91,8 +90,8 @@ function Flow2 (){
                             </div>
                             <div className="col l-3">
                                 <div className="container__list">
-                                    <ContentsFlow2 />
-                                    <ContentsFlow2 />
+                                    <contentsFlow2Col2 />
+                                    <contentsFlow2Col2 />
                                 </div>
                             </div>
                             <div className="col l-3">
