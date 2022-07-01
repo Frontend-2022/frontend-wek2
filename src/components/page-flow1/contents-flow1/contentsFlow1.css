@@ -19,6 +19,7 @@
     background: #FFFFFF00 0% 0% no-repeat padding-box;
     opacity: 1;
     border-right: 1px solid #C2C2C2;
+    cursor: pointer;
 }
     
 
@@ -72,7 +73,7 @@
     background: #FFFFFF00 0% 0% no-repeat padding-box;
     opacity: 1;
     border-right: 1px solid #C2C2C2;
-
+    cursor: pointer;
 }
 .text2{
     height: 19px;
@@ -90,6 +91,7 @@
 .list3{
     height: 32px;
     background: #FFFFFF00 0% 0% no-repeat padding-box;
+    cursor: pointer;
 }
 
 /*  */
