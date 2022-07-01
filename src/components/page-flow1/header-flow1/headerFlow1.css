@@ -73,6 +73,11 @@
     margin-left: 433px;
 }   
 
+.header-flow1__button-size {
+    width: 20px;
+    height: 20px;
+}
+
 .header-flow1__button-print,
 .header-flow1__button-setting {
     width: 40px;
