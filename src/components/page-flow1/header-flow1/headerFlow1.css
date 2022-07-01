@@ -61,7 +61,7 @@
     opacity: 1;
 }
 
-.header-flow1__action-btn:hover {
+.header-flow1__action-btn--active {
     background: #FF9500 0% 0% no-repeat padding-box;
     color: #FFFFFF;
 }

@@ -13,7 +13,7 @@ class HeaderFlow1 extends React.Component {
                         <div className="header-flow1__name-compname">Cty TNHH MTV Mặt trời đỏ</div>
                     </div>
                     <Link to="#" className="header-flow1__action">
-                        <div className="header-flow1__action-btn">
+                        <div className="header-flow1__action-btn header-flow1__action-btn--active">
                             Chưa duyệt
                         </div>
                     </Link>
