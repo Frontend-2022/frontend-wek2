@@ -70,7 +70,7 @@ function ContentsFlow1() {
                         <div className=" block2-1-1">
                             
                             <input type="checkbox" name="" class="check-full-screen" id="input-full-screen"></input>
-                            <label for="input-full-screen" className="full-screen"></label>
+                            <label for="input-full-screen" onClick={() => makeappear1('test-hover1')} className="full-screen"></label>
                             
                             <label for="input-full-screen" onClick={() => makeappear1('test-hover1')} className=" block2-1-1-1 block2-1-1-1-hover">
                                 <div className="text3">Người bán</div>
@@ -212,7 +212,7 @@ function ContentsFlow1() {
                         </div>
                     </div>
                     <div className="block2-2">
-                        <div className="block2-2-1">
+                        <div className="block2-2-1"> 
 
                             <div onClick={() => makeappear1('test-hover3')} className=" block2-2-1-1 block2-2-1-1-hover">
                                 <div className="text4">Phương thức vận chuyển</div>
@@ -233,7 +233,8 @@ function ContentsFlow1() {
                                                     </g>
                                                 </g>
                                             </svg></button>
-                                        </div>                                    </div>
+                                        </div>            
+                                    </div>
                                     <div className="nav_sub-item ">
                                         <div className="nav_sub-item-imagegrid">
                                             <div className="nav_sub-item-text ">

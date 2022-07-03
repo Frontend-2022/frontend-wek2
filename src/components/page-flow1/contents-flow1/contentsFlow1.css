@@ -698,6 +698,20 @@
   display: none;
 }
 
+.test-hover-3 {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 85.54%;
+  /* height: 200px; */
+  z-index: 1;  
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  /* background: #00000008 0% 0% no-repeat padding-box; */
+  background: #FFFFFFCC 0% 0% no-repeat padding-box;
+  display: none;
+}
+
 /* .test-hover::before {
   content: "";
   position: absolute;
@@ -738,6 +752,7 @@
   z-index: 6;
 }
 
+
 /* .test-hover2::before {
   content: "";
   position: absolute;
@@ -754,7 +769,7 @@
 
 .block2-1-1-2-hover:hover {
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
-  border: 1px solid #E0E0E0;
+  /* border: 1px solid #E0E0E0; */
 }
 
 
@@ -775,9 +790,8 @@
 
 .block2-2-1-1-hover:hover {
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
-  border: 1px solid #E0E0E0;
+  /* border: 1px solid #E0E0E0; */
 }
-
 
 
 /* .test-hover4::before {
@@ -796,7 +810,7 @@
 
 .block2-2-1-1-hover2:hover {
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
-  border: 1px solid #E0E0E0;
+  /* border: 1px solid #E0E0E0; */
 }
 svg{
   width: 14px;

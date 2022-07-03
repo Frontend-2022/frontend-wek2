@@ -3,9 +3,9 @@ import './nav.css';
 import { FiChevronLeft } from "react-icons/fi";
 
 function Nav() {
-    const [state,setState] =useState(true);
+    const [stateFilter,setStateFilter] =useState(true);
     const clickFilter=() =>{
-        setState (!state);
+        setStateFilter (!stateFilter);
     }
 
     return(
@@ -25,7 +25,7 @@ function Nav() {
             <div class="navigation-boder"></div>
 
             {/* <div class="navigation__name"> */}
-                <button onClick={clickFilter} className= {'navigation__name' + (state ? '': ' navigation__name-hidden navigation__name-icon2')}>
+                <button onClick={clickFilter} className= {'navigation__name' + (stateFilter ? '': ' navigation__name-hidden navigation__name-icon2')}>
                     <svg className="navigation__name-icon1 navigation__name-icon2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                         <g id="exclamation_6_" data-name="exclamation (6)" transform="translate(0 0)">
                             <path id="Path_16703" data-name="Path 16703" d="M6,0a6,6,0,1,0,6,6A6,6,0,0,0,6,0ZM6,11a5,5,0,1,1,5-5A5,5,0,0,1,6,11Z" fill="rgba(0,127,255,0)"/>
