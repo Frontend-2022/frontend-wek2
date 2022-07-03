@@ -213,6 +213,7 @@ function ContentsFlow1() {
                     </div>
                     <div className="block2-2">
                         <div className="block2-2-1">
+
                             <div onClick={() => makeappear1('test-hover3')} className=" block2-2-1-1 block2-2-1-1-hover">
                                 <div className="text4">Phương thức vận chuyển</div>
                                 <div className="text9">Xe công ty</div>
@@ -251,39 +252,8 @@ function ContentsFlow1() {
                                     </div>
 
                                 </div>
-
-                                {/* <div className="nav_sub">
-                                <div class="search-container">
-                                    <input type="text" placeholder="Search.." name="search"></input>
-                                    <button><svg xmlns="http://www.w3.org/2000/svg" id="Group_13362" data-name="Group 13362" width="14" height="14" viewBox="0 0 14 14">
-                                            <rect id="Rectangle_5105" data-name="Rectangle 5105" width="14" height="14" fill="none"/>
-                                            <g id="search-interface-symbol" transform="translate(0)">
-                                                <g id="_x34__4_" transform="translate(0)">
-                                                <g id="Group_11619" data-name="Group 11619">
-                                                    <path id="Path_15839" data-name="Path 15839" d="M13.873,13.239,10.259,9.682A5.717,5.717,0,0,0,11.787,5.8,5.844,5.844,0,0,0,5.9,0,5.844,5.844,0,0,0,.006,5.8a5.844,5.844,0,0,0,5.89,5.8A5.924,5.924,0,0,0,9.6,10.3l3.629,3.571a.458.458,0,0,0,.641,0A.441.441,0,0,0,13.873,13.239ZM5.9,10.7A4.945,4.945,0,0,1,.912,5.8,4.945,4.945,0,0,1,5.9.892,4.945,4.945,0,0,1,10.88,5.8,4.945,4.945,0,0,1,5.9,10.7Z" transform="translate(-0.006 0)" fill="#707070"/>
-                                                </g>
-                                                </g>
-                                            </g>
-                                            </svg></button>
-                                </div>
-                                    <div className="nav_sub-item ">
-                                    <div className="nav_sub-item-imagegrid">
-                                    <div className="nav_sub-item-text ">
-                                    Xe công ty
-                                    </div>
-                                    <div className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
-                                    </div>
-                                    </div>
-                                    <div className="nav_sub-item ">
-                                    <div className="nav_sub-item-imagegrid">
-                                    <div className="nav_sub-item-text ">
-                                    Xe công ty
-                                    </div>
-                                    <div className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z"/></svg></div>  
-                                    </div>
-                                    </div>
-                                </div> */}
                             </div>
+
                             <div onClick={() => makeappear1('test-hover4')} className=" block2-2-1-1 block2-2-1-1-hover2">
                                 <div className="text4">Hình thức thanh toán</div>
                                 <div className="text9">Thanh toán khi nhận hàng (COD)</div>

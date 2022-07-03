@@ -737,9 +737,6 @@
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
   z-index: 6;
 }
-.check-full-screen:checked ~ .test-hover {
-  display: block;
-}
 
 /* .test-hover2::before {
   content: "";
