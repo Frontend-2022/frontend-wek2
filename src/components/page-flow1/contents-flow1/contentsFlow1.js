@@ -3,7 +3,9 @@ import './contentsFlow1.css';
 
 
 function ContentsFlow1() {
-    const [appear, setAppear] = useState(false);
+    const [appear, setAppear] = useState(true);
+    const [click, setClicker] = useState(0);
+    const [count, setCount] = useState(true);
     const makeappear = () => {
         if (appear) {
             document.getElementById('text1').style.display = 'none';
@@ -16,24 +18,29 @@ function ContentsFlow1() {
         setAppear(!appear);
     }
     const makeappear1 = (id) => {
-        if (appear){
-            document.getElementById(id).classList.toggle('show');
+         if (appear ){ // && (click % 2 === 0)
+            document.getElementById(id).style.display = 'block';
+            // setClicker(click+1);
+             document.on('click',id,function(e){
+                 e.stopPropagation();
+             })
         }
-        else { document.getElementById(id).classList.remove('show');
-        }   
+        else{ document.getElementById(id).style.display = 'none';
+                // setClicker(click+1);
+        }
         setAppear(!appear);
     }
 
-    const makeappear3 = (id) => {
-        if (appear){
-            document.getElementById(id).style.display = 'block';
-        }
-        else { document.getElementById(id).style.display = 'none';
-        }   
-        setAppear(!appear);
-    }
+    // const makeappear3 = (id) => {
+    //     if (appear){
+    //         document.getElementById(id).style.display = 'block';
+    //     }
+    //     else { document.getElementById(id).style.display = 'none';
+    //     }   
+    //     setAppear(!appear);
+    // }
     const makeappear2 = (id,id1) => {
-        if (appear) {
+        if (count) {
             document.getElementById(id).style.display = 'block';
             document.getElementById(id1).style.color = '#141414';
         }
@@ -41,15 +48,15 @@ function ContentsFlow1() {
             document.getElementById(id).style.display = 'none';
             document.getElementById(id1).style.color = '#707070';
         }
-        setAppear(!appear);
+        setCount(!count);
     }
     return (
         <div className="contentsflow1">
             <div className="category-container">
                 <div className="row container-category-position">
                     <div className="list1">
-                        <div onClick={makeappear} id="text1" className="text1">Đơn hàng</div>
-                        <div onClick={makeappear} id="text1-1" className="text1-1">Nội dung</div>
+                        <div onClick={()=>makeappear()} id="text1" className="text1">Đơn hàng</div>
+                        <div onClick={()=>makeappear()} id="text1-1" className="text1-1">Nội dung</div>
                     </div>
                     <div className="list2">
                         <div className="text2">Vận chuyển</div>
@@ -148,7 +155,7 @@ function ContentsFlow1() {
                                 <div className="text3">Ngày giao</div>
                                 <input type="date"></input>
                             </div>
-                            <div className=" block2-1-1-2 block2-1-1-2-hover">
+                            <div onClick={() => makeappear1('test-hover2')} className=" block2-1-1-2 block2-1-1-2-hover">
                                 <div className="text3">Kho bán hàng</div>
                                 <div className="text9">Lorem ipsum dolor sit amet,</div>
 
@@ -180,12 +187,12 @@ function ContentsFlow1() {
                                             <div id="image3" className="image4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
-                                    <div className="nav_sub-item ">
+                                    <div onClick={() => makeappear2('image4','text5')} className="nav_sub-item ">
                                         <div className="nav_sub-item-imagegrid">
-                                            <div className="nav_sub-item-text ">
+                                            <div id="text5" className="nav_sub-item-text ">
                                                 Lorem ipsum dolor sit amet,
                                             </div>
-                                            <div className="image4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id="image4" className="image4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
 
                                     </div>
@@ -231,7 +238,7 @@ function ContentsFlow1() {
                     <div className="block2-2">
                         <div className="block2-2-1"> 
 
-                            <div  className=" block2-2-1-1 block2-2-1-1-hover">
+                            <div onClick={() => makeappear1('test-hover3')} className=" block2-2-1-1 block2-2-1-1-hover">
                                 <div className="text4">Phương thức vận chuyển</div>
                                 <div className="text9">Xe công ty</div>
 
@@ -252,27 +259,27 @@ function ContentsFlow1() {
                                             </svg></button>
                                         </div>            
                                     </div>
-                                    <div className="nav_sub-item ">
+                                    <div onClick={() => makeappear2('image5','text6')} className="nav_sub-item ">
                                         <div className="nav_sub-item-imagegrid">
-                                            <div className="nav_sub-item-text ">
+                                            <div id='text6' className="nav_sub-item-text ">
                                                 Xe công ty
                                             </div>
-                                            <div className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id='image5' className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
-                                    <div className="nav_sub-item ">
+                                    <div onClick={() => makeappear2('image6','text7')} className="nav_sub-item ">
                                         <div className="nav_sub-item-imagegrid">
-                                            <div className="nav_sub-item-text ">
+                                            <div id='text7' className="nav_sub-item-text ">
                                                 Xe công ty
                                             </div>
-                                            <div className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id='image6' className="image3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
 
-                            <div  className=" block2-2-1-1 block2-2-1-1-hover2">
+                            <div onClick={() => makeappear1('test-hover4')} className=" block2-2-1-1 block2-2-1-1-hover2">
                                 <div className="text4">Hình thức thanh toán</div>
                                 <div className="text9">Thanh toán khi nhận hàng (COD)</div>
 
@@ -293,20 +300,20 @@ function ContentsFlow1() {
                                             </svg></button>
                                         </div>
                                     </div>
-                                    <div className="nav_sub-item ">
+                                    <div onClick={() => makeappear2('image7','text8')} className="nav_sub-item ">
                                         <div className="nav_sub-item-imagegrid">
-                                            <div className="nav_sub-item-text ">
+                                            <div id="text8" className="nav_sub-item-text ">
                                                 Thanh toán khi nhận hàng (COD)
                                             </div>
-                                            <div className="image2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id="image7" className="image2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
-                                    <div className="nav_sub-item ">
+                                    <div onClick={() => makeappear2('image8','text9')} className="nav_sub-item ">
                                         <div className="nav_sub-item-imagegrid">
-                                            <div className="nav_sub-item-text ">
+                                            <div id="text9" className="nav_sub-item-text ">
                                                 Thanh toán khi nhận hàng (COD)
                                             </div>
-                                            <div className="image2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id="image8" className="image2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
 
