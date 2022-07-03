@@ -698,22 +698,6 @@
   display: none;
 }
 
-/* .test-hover .test1111 {
-  display: block;       
-}
-
-
-.test1111 {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: #00000029 0% 0% no-repeat padding-box;
-  display: none;
-} */
-
-
 /* .test-hover::before {
   content: "";
   position: absolute;
@@ -727,21 +711,35 @@
 
 .block2-1-1-1-hover:hover {
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
-  border: 1px solid #E0E0E0;
+  /* border: 1px solid #E0E0E0; */
 }
 
-/* .full-screen {
+.full-screen {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #C2C2C2;
+  /* background-color: #C2C2C2; */
+  z-index: 6;
   background: #00000029 0% 0% no-repeat padding-box;
-  z-index: 1;
-} */
+  display: none;
+}
 
+.check-full-screen {
+  display: none;
+}
 
+.check-full-screen:checked ~ .full-screen {
+  display: block;
+}
+.check-full-screen:checked ~ .block2-1-1-1-hover {
+  background: #FFFFFFCC 0% 0% no-repeat padding-box;
+  z-index: 6;
+}
+.check-full-screen:checked ~ .test-hover {
+  display: block;
+}
 
 /* .test-hover2::before {
   content: "";
