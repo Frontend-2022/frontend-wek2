@@ -71,11 +71,18 @@ function ContentsFlow2Col2 (){
                         </g>
                         </svg>
                     </button>
-                    <button onClick={toggle_3}  className= {'toggleCol-3' + (stateCol_3 ? ' ': ' toggleCloseCol3')}  >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-                        <path id="data-transfer_1_" data-name="data-transfer (1)" d="M4,0H2A2,2,0,0,0,0,2v.5a2,2,0,0,0,2,2h.5v1h-1a.5.5,0,1,0,0,1h3a.5.5,0,1,0,0-1h-1v-1H4a2,2,0,0,0,2-2V2A2,2,0,0,0,4,0ZM5,2.5a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V2A1,1,0,0,1,2,1H4A1,1,0,0,1,5,2Zm5,3H9a2,2,0,0,0-2,2V10a2,2,0,0,0,2,2h1a2,2,0,0,0,2-2V7.5A2,2,0,0,0,10,5.5ZM11,10a1,1,0,0,1-1,1H9a1,1,0,0,1-1-1V7.5a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1ZM7,2a.5.5,0,0,1,.5-.5h1A1.5,1.5,0,0,1,10,3V4A.5.5,0,0,1,9,4V3a.5.5,0,0,0-.5-.5h-1A.5.5,0,0,1,7,2ZM6,10a.5.5,0,0,1-.5.5H4A1.5,1.5,0,0,1,2.5,9V8a.5.5,0,1,1,1,0V9a.5.5,0,0,0,.5.5H5.5A.5.5,0,0,1,6,10Zm4,0a.5.5,0,1,1-.5-.5A.5.5,0,0,1,10,10Z" transform="translate(0)" fill="#fff"/>
-                        </svg>
-                    </button>
+                    <div className="double_btn">
+                        <button onClick={toggle_3}   className={'toggleCol-3' + (stateCol_3 ? '': ' toggleCloseCol3')}  >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                            <path id="data-transfer_1_" data-name="data-transfer (1)" d="M4,0H2A2,2,0,0,0,0,2v.5a2,2,0,0,0,2,2h.5v1h-1a.5.5,0,1,0,0,1h3a.5.5,0,1,0,0-1h-1v-1H4a2,2,0,0,0,2-2V2A2,2,0,0,0,4,0ZM5,2.5a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V2A1,1,0,0,1,2,1H4A1,1,0,0,1,5,2Zm5,3H9a2,2,0,0,0-2,2V10a2,2,0,0,0,2,2h1a2,2,0,0,0,2-2V7.5A2,2,0,0,0,10,5.5ZM11,10a1,1,0,0,1-1,1H9a1,1,0,0,1-1-1V7.5a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1ZM7,2a.5.5,0,0,1,.5-.5h1A1.5,1.5,0,0,1,10,3V4A.5.5,0,0,1,9,4V3a.5.5,0,0,0-.5-.5h-1A.5.5,0,0,1,7,2ZM6,10a.5.5,0,0,1-.5.5H4A1.5,1.5,0,0,1,2.5,9V8a.5.5,0,1,1,1,0V9a.5.5,0,0,0,.5.5H5.5A.5.5,0,0,1,6,10Zm4,0a.5.5,0,1,1-.5-.5A.5.5,0,0,1,10,10Z" transform="translate(0)" fill="#fff"/>
+                            </svg>
+                        </button>
+                        <button className="btn_org">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                            <path id="data-transfer_1_" data-name="data-transfer (1)" d="M4,0H2A2,2,0,0,0,0,2v.5a2,2,0,0,0,2,2h.5v1h-1a.5.5,0,1,0,0,1h3a.5.5,0,1,0,0-1h-1v-1H4a2,2,0,0,0,2-2V2A2,2,0,0,0,4,0ZM5,2.5a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V2A1,1,0,0,1,2,1H4A1,1,0,0,1,5,2Zm5,3H9a2,2,0,0,0-2,2V10a2,2,0,0,0,2,2h1a2,2,0,0,0,2-2V7.5A2,2,0,0,0,10,5.5ZM11,10a1,1,0,0,1-1,1H9a1,1,0,0,1-1-1V7.5a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1ZM7,2a.5.5,0,0,1,.5-.5h1A1.5,1.5,0,0,1,10,3V4A.5.5,0,0,1,9,4V3a.5.5,0,0,0-.5-.5h-1A.5.5,0,0,1,7,2ZM6,10a.5.5,0,0,1-.5.5H4A1.5,1.5,0,0,1,2.5,9V8a.5.5,0,1,1,1,0V9a.5.5,0,0,0,.5.5H5.5A.5.5,0,0,1,6,10Zm4,0a.5.5,0,1,1-.5-.5A.5.5,0,0,1,10,10Z" transform="translate(0)" fill="#fff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,8 +169,6 @@ function ContentsFlow2Col2 (){
 </div>
     );
  }
-//  export default ContentsFlow2Col2;
-
 export {ContentsFlow2Col2 , ContentsFlow2Col3}
 
 // "toggleCol-3_hover"

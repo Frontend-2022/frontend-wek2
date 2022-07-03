@@ -210,46 +210,62 @@ opacity: 1;
 }
 
 
+.double_btn{
+    position: relative;
+    width: 20px;
+    height: 19px;
+}
 
-.toggleCol-3{
+.btn_org{
+    position: absolute;
     padding-left: 3.5px;
     padding-top: 0.7px;
     margin-bottom: 13px;
+    top: 0;
+    left: 0;
     width: 20px;
     height: 19px;
     border-radius: 50% ;
     margin-left: 7px;
     border: none;
     cursor: pointer;
-    background-color: #34C759;
+    background-color: #FF9500;
+    opacity: 1;
+}
+
+.double_btn:hover .btn_org{
+display: none;
+transition: 0.4s;
+}
+
+.toggleCol-3{
+    position: absolute;
+    padding-left: 3.5px;
+    padding-top: 0.7px;
+    margin-bottom: 13px;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 19px;
+    border-radius: 50% ;
+    margin-left: 7px;
+    border: none;
+    cursor: pointer;
+    overflow: visible;
+    background-color:#D6D6D6 ;
+
 
 }
 .toggleCloseCol3{
-    background-color: #FF9500;
+    /* background-color: #FF9500; */
+    background-color: #34C759;
     width: 20px;
    height: 19px;
+   top: 0;
+   left: 0;
    border-radius: 50% ;
    margin-left: 7px;
    border: none;
    cursor: pointer;
+    overflow: visible;
 }
-.toggleCol-3:hover {
-    background-color:#D6D6D6 ;
-}
-
-/* .toggleColOpen3{
-    padding-left: 3.5px;
-    padding-top: 0.7px;
-    margin-bottom: 13px;
-    width: 20px;
-    height: 19px;
-    border-radius: 50% ;
-    margin-left: 7px;
-    border: none;
-    cursor: pointer;
-    background-color: #34C759;
-} */
-
-
-
-
