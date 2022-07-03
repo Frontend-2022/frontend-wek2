@@ -4,7 +4,7 @@ import './contentsFlow1.css';
 
 function ContentsFlow1() {
     const [appear, setAppear] = useState(true);
-    const [click, setClicker] = useState(0);
+    // const [click, setClicker] = useState(0);
     const [count, setCount] = useState(true);
     const makeappear = () => {
         if (appear) {
@@ -31,7 +31,6 @@ function ContentsFlow1() {
         setAppear(!appear);
     }
 
-<<<<<<< HEAD
     // const makeappear3 = (id) => {
     //     if (appear){
     //         document.getElementById(id).style.display = 'block';
@@ -40,10 +39,8 @@ function ContentsFlow1() {
     //     }   
     //     setAppear(!appear);
     // }
-=======
->>>>>>> 7f5b3a5528758127c0cfeaeb64d179486d1f798d
     const makeappear2 = (id,id1) => {
-        if (count) {
+        if (!count) {
             document.getElementById(id).style.display = 'block';
             document.getElementById(id1).style.color = '#141414';
         }
