@@ -31,6 +31,7 @@ function ContentsFlow1() {
         setAppear(!appear);
     }
 
+<<<<<<< HEAD
     // const makeappear3 = (id) => {
     //     if (appear){
     //         document.getElementById(id).style.display = 'block';
@@ -39,6 +40,8 @@ function ContentsFlow1() {
     //     }   
     //     setAppear(!appear);
     // }
+=======
+>>>>>>> 7f5b3a5528758127c0cfeaeb64d179486d1f798d
     const makeappear2 = (id,id1) => {
         if (count) {
             document.getElementById(id).style.display = 'block';
@@ -98,13 +101,14 @@ function ContentsFlow1() {
                     <div className="block2-1">
                         <div className=" block2-1-1">
                             
+                            {/* <div onClick={() => makeappear3('test-full-screen')} className="full-screen"></div> */}
+
                             <div onClick={() => makeappear1('test-hover1')}  className=" block2-1-1-1 block2-1-1-1-hover">
                                 <div className="text3">Người bán</div>
                                 <div className="imagegrid">
                                     <div className="image"></div>
                                     <div className="text8">Nguyễn Văn Mười Ba</div>
                                 </div>
-
                                 <div id="test-hover1" className="test-hover">
                                     <div class="search-container2">
                                         <div className="input-grid">
