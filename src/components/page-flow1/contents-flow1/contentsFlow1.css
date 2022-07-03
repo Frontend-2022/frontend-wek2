@@ -433,7 +433,7 @@
     opacity: 1;
 }
 [type="date"] {
-    background: transparent url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% no-repeat padding-box;
+    background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 98% no-repeat padding-box;
   }
   [type="date"]::-webkit-inner-spin-button {
     display: none;
@@ -444,9 +444,9 @@
   
   /* custom styles */
   input[type="date"]{
+    background-color: transparent;
     outline: none;
-    color: transparent;
-    font-size: 10px;
+    font: normal normal normal 16px/22px 'Open Sans';
     border: transparent;
     height: 24px;
     width:118px;
@@ -574,7 +574,7 @@
     text-align: left;
     font: normal normal normal 16px/19px 'Open Sans';
     letter-spacing: 0px;
-    color: #141414;
+    color: #707070;
   }
   .search-container2{
     background: #FFFFFF00 0% 0% no-repeat padding-box;
@@ -616,23 +616,24 @@
     background: transparent;
     border: none;
   }
-  .block2-2-1-1:hover .nav_sub{
+  /* .block2-2-1-1:hover .nav_sub{
     display: block;
-}
+} */
     .block2-2-1-1:hover{
     background: #00000014 0% 0% no-repeat padding-box;
   }
-  .block2-1-1-2:hover .nav_sub{
+  /* .block2-1-1-2:hover .nav_sub{
     display: block;
-}
+} */
     .block2-1-1-2:hover{
     background: #00000014 0% 0% no-repeat padding-box;
   }
   .image1{
     display: none;
     color: #00000014;
-    margin-left: 62px;
+    margin-left: 50px;
     margin-top: 5px;
+    z-index: 2;
   }
   .image2{
     width: 14px;
@@ -727,6 +728,10 @@
   background: #FFFFFFCC 0% 0% no-repeat padding-box;
   /* border: 1px solid #E0E0E0; */
 }
+.block2-1-1-1-hover:hover .test-hover{
+  display: block;
+  /* border: 1px solid #E0E0E0; */
+}
 
 .full-screen {
   position: fixed;
@@ -817,4 +822,5 @@ svg{
   height: 10.5px;
   margin-top: 2px;
 }
+
 

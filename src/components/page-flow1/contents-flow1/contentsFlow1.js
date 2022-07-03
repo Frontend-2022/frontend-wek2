@@ -16,9 +16,31 @@ function ContentsFlow1() {
         setAppear(!appear);
     }
     const makeappear1 = (id) => {
-        if (appear)
+        if (appear){
+            document.getElementById(id).classList.toggle('show');
+        }
+        else { document.getElementById(id).classList.remove('show');
+        }   
+        setAppear(!appear);
+    }
+
+    const makeappear3 = (id) => {
+        if (appear){
             document.getElementById(id).style.display = 'block';
-        else { document.getElementById(id).style.display = 'none'; }
+        }
+        else { document.getElementById(id).style.display = 'none';
+        }   
+        setAppear(!appear);
+    }
+    const makeappear2 = (id,id1) => {
+        if (appear) {
+            document.getElementById(id).style.display = 'block';
+            document.getElementById(id1).style.color = '#141414';
+        }
+        else {
+            document.getElementById(id).style.display = 'none';
+            document.getElementById(id1).style.color = '#707070';
+        }
         setAppear(!appear);
     }
     return (
@@ -69,10 +91,7 @@ function ContentsFlow1() {
                     <div className="block2-1">
                         <div className=" block2-1-1">
                             
-                            <input type="checkbox" name="" class="check-full-screen" id="input-full-screen"></input>
-                            <label for="input-full-screen" onClick={() => makeappear1('test-hover1')} className="full-screen"></label>
-                            
-                            <label for="input-full-screen" onClick={() => makeappear1('test-hover1')} className=" block2-1-1-1 block2-1-1-1-hover">
+                            <div onClick={() => makeappear1('test-hover1')}  className=" block2-1-1-1 block2-1-1-1-hover">
                                 <div className="text3">Người bán</div>
                                 <div className="imagegrid">
                                     <div className="image"></div>
@@ -98,28 +117,27 @@ function ContentsFlow1() {
                                         </div>
                                     </div>
 
-                                    <div className="nav_sub2-item2 ">
+                                    <div  onClick={() => makeappear2('image1','text2')} className="nav_sub2-item2 ">
                                         <div className="nav_sub2-item2-imagegrid">
                                             <div className="nav_sub2-item2-image"></div>
-                                            <div className="nav_sub2-item-text2">Nguyễn Văn Mười Ba</div>
-                                            <div className="image1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id="text2" className="nav_sub2-item-text2">Nguyễn Văn Mười Ba</div>
+                                            <div id="image1" className="image1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
 
-                                    <div className="nav_sub2-item2 ">
+                                    <div onClick={() => makeappear2('image2','text3')} className="nav_sub2-item2 ">
                                         <div className="nav_sub2-item2-imagegrid">
                                             <div className="nav_sub2-item2-image"></div>
-                                            <div className="nav_sub2-item-text2">Nguyễn Văn Mười Ba</div>
-                                            <div className="image1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id="text3" className="nav_sub2-item-text2">Nguyễn Văn Mười Ba</div>
+                                            <div id="image2" className="image1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
 
                                 </div>
-                            </label>
+                            </div>
 
                             <div className=" block2-1-1-1">
                                 <div className="text3">Ngày đặt</div>
-                                <div className="text7">dd/mm/yyyy</div>
                                 <input type="date"></input>
                             </div>
 
@@ -128,10 +146,9 @@ function ContentsFlow1() {
                         <div className="block2-1-1">
                             <div className=" block2-1-1-2">
                                 <div className="text3">Ngày giao</div>
-                                <div className="text7">dd/mm/yyyy</div>
                                 <input type="date"></input>
                             </div>
-                            <div onClick={() => makeappear1('test-hover2')} className=" block2-1-1-2 block2-1-1-2-hover">
+                            <div className=" block2-1-1-2 block2-1-1-2-hover">
                                 <div className="text3">Kho bán hàng</div>
                                 <div className="text9">Lorem ipsum dolor sit amet,</div>
 
@@ -156,11 +173,11 @@ function ContentsFlow1() {
 
                                     <div className="nav_sub-item ">
 
-                                        <div className="nav_sub-item-imagegrid">
-                                            <div className="nav_sub-item-text ">
+                                        <div onClick={() => makeappear2('image3','text4')} className="nav_sub-item-imagegrid">
+                                            <div id="text4" className="nav_sub-item-text ">
                                                 Lorem ipsum dolor sit amet,
                                             </div>
-                                            <div className="image4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
+                                            <div id="image3" className="image4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" /></svg></div>
                                         </div>
                                     </div>
                                     <div className="nav_sub-item ">
@@ -214,7 +231,7 @@ function ContentsFlow1() {
                     <div className="block2-2">
                         <div className="block2-2-1"> 
 
-                            <div onClick={() => makeappear1('test-hover3')} className=" block2-2-1-1 block2-2-1-1-hover">
+                            <div  className=" block2-2-1-1 block2-2-1-1-hover">
                                 <div className="text4">Phương thức vận chuyển</div>
                                 <div className="text9">Xe công ty</div>
 
@@ -255,7 +272,7 @@ function ContentsFlow1() {
                                 </div>
                             </div>
 
-                            <div onClick={() => makeappear1('test-hover4')} className=" block2-2-1-1 block2-2-1-1-hover2">
+                            <div  className=" block2-2-1-1 block2-2-1-1-hover2">
                                 <div className="text4">Hình thức thanh toán</div>
                                 <div className="text9">Thanh toán khi nhận hàng (COD)</div>
 
