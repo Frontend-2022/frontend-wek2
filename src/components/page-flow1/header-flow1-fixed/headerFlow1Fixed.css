@@ -87,17 +87,35 @@
     height: 20px;
 }
 
-.header-flow1-fixed__button-print,
-.header-flow1-fixed__button-setting {
+.header-flow1-fixed__button-size1 {
+    width: 20px;
+    height: 20px;
+    margin: 9px;
+}
+
+.header-flow1-fixed__button-print {
     width: 40px;
     height: 40px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* background: #30303000 0% 0% no-repeat padding-box; */
+    background-color: #FFFFFF;
     border: 1px solid #D6D6D6;
     border-radius: 8px;
     opacity: 1;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+}
+
+.header-flow1-fixed__button-setting {
+    /* width: 40px;
+    height: 40px;
+    background: #30303000 0% 0% no-repeat padding-box;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;     */
 }
 .header-flow1-fixed__button-setting {
     margin: 0 8px;
@@ -107,9 +125,9 @@
 .header-flow1-fixed__button-print:hover {
     cursor: pointer;
 }
-.header-flow1-fixed__button-setting:hover {
+.header-flow1-fixed__button-click:hover {
     cursor: pointer;
-    background: #ffffff 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #141414;
     border-radius: 5px;
     animation: fadeIn ease-out 0.3s;
@@ -123,14 +141,57 @@
     }
 }
 
-.header-flow1-fixed__button-setting:active {
+/* .header-flow1__button-setting:active .setting-list {
+    display: block;
+} */
+
+.header-flow1-fixed__button-click {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid #D6D6D6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #30303000 0% 0% no-repeat padding-box; */
+    background-color: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    opacity: 1; 
+}
+
+/*  */
+.full-screen-setting-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    /* z-index: 6; */
+    cursor: pointer;
+    display: none;
+}
+.check-input-setting-fixed {
+    display: none;
+}
+
+.check-input-setting-fixed:checked ~ .header-flow1-fixed__button-click {
+    border: 1px solid #D6D6D6;
     background: #141414 0% 0% no-repeat padding-box;
     border-radius: 5px;
     opacity: 1;
 }
-
-.header-flow1-fixed__button-setting:active .setting-list-fixed {
+.check-input-setting-fixed:checked ~ .full-screen-setting-fixed {
     display: block;
+}
+.check-input-setting-fixed:checked ~ .setting-list-fixed {
+    display: block;
+}
+
+/*  */
+
+.setting-list-fixed:hover {
+    cursor: pointer;
 }
 
 .setting-list-fixed {
